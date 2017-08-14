@@ -1,0 +1,81 @@
+.fa {
+    font-size: 25px;
+    padding: 10px;
+    color: #222;
+    transition: color 0.2s ease;
+}
+.fa-github:hover {
+    color: black;
+}
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+.fa-envelope-o:hover {
+    color: red;
+}
+
+.mynavOptions {
+    color: #222;
+    font-family: 'Circular Std Black';
+    cursor: pointer;
+    transition: color 0.2s ease;
+    text-align: center;
+}
+.mynavOptions:hover {
+    color: #f8584e;
+}
+
+.myComponents {
+    max-height: none;
+    padding-bottom: 150px;
+}
+
+@media(max-width: 1920px) {
+    .mynavOptions{
+        font-size: 75px;
+    }
+}
+@media(max-width: 1600px){
+    .mynavOptions{
+        font-size: 65px;
+    }
+}
+
+@media(max-width: 1366px){
+    .mynavOptions{
+        font-size: 55px;
+    }
+}
+@media(max-width: 1150px){
+    .mynavOptions{
+        font-size: 40px;
+    }
+}
+@media(max-width: 1000px){
+    .mynavOptions{
+        font-size: 35px;
+    }
+}
+@media(max-width: 768px){
+    .mynavOptions{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 720px){
+    .mynavOptions{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 580px){
+    .mynavOptions{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 450px){
+    .mynavOptions{
+        font-size: 15px;
+    }
+}
