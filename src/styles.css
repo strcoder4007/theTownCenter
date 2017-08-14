@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+::selection {
+    background: black;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #B7A17B;
+}
+
+.gutter-0.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.gutter-0 > [class^="col-"]{
+    padding-right: 0;
+    padding-left: 0;
+}
