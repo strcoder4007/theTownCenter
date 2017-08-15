@@ -1,8 +1,8 @@
 <div class="container-fluid myComponent">
-    <p class="about">I am a hard working and self motivated full stack web developer with 9 years experience, based in Birmingham, UK.<br>
-    My key skills are in JavaScript (Angular2, AngularJS and Node.js), HTML5, CSS3, PHP, MongoDB and MySQL. I've also developed several hybrid apps for iOS and Android using the Ionic framework. Additionally I am experienced in deploying and scaling linux servers for high traffic volume websites.
+    <p class="about">I am a self-motivated and self-taught full stack web developer with 5 years of experience.
+            My key skills are in C++, JavaScript (AngularJS, NodeJs), Typescript(Angular 4, NodeJs), Python, Bootstrap, HTML5, CSS3 and MongoDB. I've developed several web apps using AngularJS & Angular4 frameworks. Additionally, I am 3 years experienced in programming intricate algorithms and use C++ to code them.
     </p>
-    <p class="mynavOptions">projects</p>
+    <p id="projects" class="mynavOptions">projects</p>
     <div class="row gutter-0" style="margin-top: 30px;">
         <div class="container-fluid">
 
@@ -23,7 +23,7 @@
             </div>
             </span>
 
-            <div *ngIf="loadFirst">
+            <div *ngIf="loadFirst" class="elementToFadeIn">
                 <span *ngFor="let project of myProjects2; let i = index">
                     <div class="col-xs-6 col-md-4 project">
                         <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
@@ -42,7 +42,7 @@
                 </span>
             </div>
 
-            <div *ngIf="loadSecond">
+            <div *ngIf="loadSecond" class="elementToFadeIn">
                 <span *ngFor="let project of myProjects3; let i = index">
                     <div class="col-xs-6 col-md-4 project">
                         <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <p class="mynavOptions">programming</p>
+    <p id="programming" class="mynavOptions">programming</p>
 
 
 </div>  

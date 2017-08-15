@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit {
     processJson() {
         this.getposts().subscribe((projects) => {
             this.myProjects = projects;
-            console.log(this.myProjects);
+            //console.log(this.myProjects);
             for(let i  = 0; i < this.myProjects.length; i++) {
                 for(let j = 0; j < this.myProjects[i].tech.length-1; j++) {
                     this.myProjects[i].tech[j] = this.myProjects[i].tech[j]+',';

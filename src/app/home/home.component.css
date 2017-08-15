@@ -67,9 +67,13 @@
     color: white;
     font-family: 'Circular Std Book';
     font-size: 18px;
-    border: 1px solid white;
+    border: 2px solid white;
     background: transparent;
     border-radius: 0px;
+}
+.myBtn:hover {
+    background-color: white;
+    color: black;
 }
 
 
