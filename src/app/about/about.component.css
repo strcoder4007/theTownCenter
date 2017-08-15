@@ -1,0 +1,12 @@
+.myComponent {
+    max-height: none;
+    padding: 50px 5vw;
+}
+
+.about {
+    color: whitesmoke;
+    font-family: 'Circular Std Book';
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 30px;
+}

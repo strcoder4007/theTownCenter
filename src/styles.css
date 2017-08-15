@@ -3,6 +3,10 @@
     width: 10px;
 }
 
+body {
+    background-color: #000;
+}
+
 html {
     overflow-x:hidden;
 }
@@ -42,7 +46,7 @@ html {
 }
 
 ::selection {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 

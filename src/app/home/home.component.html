@@ -5,39 +5,70 @@
     <p class="mynavOptions">projects</p>
     <div class="row gutter-0" style="margin-top: 30px;">
         <div class="container-fluid">
+
+            <span *ngFor="let project of myProjects1; let i = index">
             <div class="col-xs-6 col-md-4 project">
-                <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">Time My Show</p></div>
-                <p class="projectAbout">A web app to keep track of your favourite television shows by notifying for new episodes.</p>
-                <p><b>Made using:</b></p>
-                <ul>
-                    <li>Angular 4</li>
-                    <li>Typescript</li>
-                    <li>NodeJs</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-4 project">
-                    <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">Time My Show</p></div>
-                    <p class="projectAbout">A web app to keep track of your favourite television shows by notifying for new episodes.</p>
-                    <p><b>Made using:</b></p>
-                    <ul>
-                        <li>Angular 4</li>
-                        <li>Typescript</li>
-                        <li>NodeJs</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-            <div class="col-xs-6 col-md-4 project">
-                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">Time My Show</p></div>
-                        <p class="projectAbout">A web app to keep track of your favourite television shows by notifying for new episodes.</p>
-                        <p><b>Made using:</b></p>
-                        <ul>
-                            <li>Angular 4</li>
-                            <li>Typescript</li>
-                            <li>NodeJs</li>
-                            <li>Bootstrap</li>
-                        </ul>
+                <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
+                <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
+                <div class="row gutter-0 techSection">                        
+                    <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
                     </div>
+                </div>
+                <div class="row gutter-0" style="height: 40px">
+                    <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+                    </div>
+                    <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+                    </div>
+                </div>
+            </div>
+            </span>
+
+            <div *ngIf="loadFirst">
+                <span *ngFor="let project of myProjects2; let i = index">
+                    <div class="col-xs-6 col-md-4 project">
+                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
+                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
+                        <div class="row gutter-0 techSection">                        
+                            <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
+                            </div>
+                        </div>
+                        <div class="row gutter-0" style="height: 40px">
+                            <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+                            </div>
+                            <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+            <div *ngIf="loadSecond">
+                <span *ngFor="let project of myProjects3; let i = index">
+                    <div class="col-xs-6 col-md-4 project">
+                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
+                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
+                        <div class="row gutter-0 techSection">                        
+                            <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
+                            </div>
+                        </div>
+                        <div class="row gutter-0" style="height: 40px">
+                            <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+                            </div>
+                            <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+            <div class="row gutter-0" style="text-align: center">
+                <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
+            </div>
+
         </div>
     </div>
-</div>
+
+    <p class="mynavOptions">programming</p>
+
+
+</div>  

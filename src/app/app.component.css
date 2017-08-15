@@ -1,11 +1,11 @@
 .fa {
     font-size: 25px;
     padding: 10px;
-    color: #222;
+    color: white;
     transition: color 0.2s ease;
 }
 .fa-github:hover {
-    color: black;
+    color: #222;
 }
 .fa-linkedin:hover {
     color: #0077b5;
@@ -15,7 +15,7 @@
 }
 
 .mynavOptions {
-    color: #222;
+    color: white;
     font-family: 'Circular Std Black';
     cursor: pointer;
     transition: color 0.2s ease;

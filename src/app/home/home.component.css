@@ -4,7 +4,7 @@
 }
 
 .about {
-    color: #565656;
+    color: whitesmoke;
     font-family: 'Circular Std Book';
     font-size: 20px;
     text-align: justify;
@@ -12,47 +12,94 @@
 }
 
 .mynavOptions {
-    color: #222;
+    color: white;
     font-family: 'Circular Std Black';
     font-size: 40px;
     transition: color 0.2s ease;
-    padding: 10px 0px;
+    margin: 30px 0px;
 }
 
 .project {
     height: 250px;
-    border: 2px solid #222;
+    border: 2px solid white;
     margin: 10px;
     padding: 0px !important;
 }
 .projectHeading {
     font-family: 'Circular Std Book';
-    font-size: 20px;
-    color: white;
+    color: #000;
     padding-top: 5px;
 }
 .projectAbout {
     font-family: 'Circular Std Book';
     font-size: 13px;
-    padding: 2px 5px;
     text-align: justify;
+    color: whitesmoke;
 }
 .projectHeadingContainer{
-    height: 40px;
-    background-color: #222;
+    background-color: white;
     text-align: center;
 }
+.projectLink {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Circular Std Book';
+    color: whitesmoke;
+    transition: color 0.2s ease;
+}
+.projectLink:hover {
+    color: #f8584e;
+    cursor: pointer;    
+}
+.projectTech {
+    font-family: 'Circular Std Book';
+    font-size: 20px;
+    color: whitesmoke;
+}
+.techSection {
+    padding: 5px;
+    height: 170px;
+}
+.myBtn {
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: 'Circular Std Book';
+    font-size: 18px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 0px;
+}
+
+
 
 @media(max-width: 1920px) {
     .mynavOptions{
         font-size: 65px;
     }
     .about {
-        font-size: 35px;
+        font-size: 30px;
     }
     .project{
         width: 530px;
         height: 400px;
+    }
+    .projectHeadingContainer {
+        font-size: 30px;
+        height: 50px;
+    }
+    .projectAbout {
+        height: 130px;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .projectLink{
+        font-size: 25px;
+    }
+    .techSection {
+        padding: 10px;
+        height: 170px;
     }
 }
 @media(max-width: 1600px){
@@ -60,11 +107,27 @@
         font-size: 55px;
     }
     .about {
-        font-size: 30px;
+        font-size: 28px;
     }
     .project{
         width: 400px;
         height: 300px;
+    }
+    .projectHeadingContainer {
+        font-size: 25px;
+        height: 45px;
+    }
+    .projectAbout {
+        height: 105px;
+        font-size: 20px;
+        padding: 7px;
+    }
+    .projectLink{
+        font-size: 20px;
+    }
+    .techSection {
+        padding: 7px;
+        height: 100px;
     }
 }
 
@@ -78,6 +141,22 @@
     .project{
         width: 375px;
         height: 300px;
+    }
+    .projectHeadingContainer {
+        font-size: 20px;
+        height: 40px;
+    }
+    .projectAbout {
+        height: 100px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .projectLink{
+        font-size: 18px;
+    }
+    .techSection {
+        padding: 5px;
+        height: 110px;
     }
 }
 @media(max-width: 1150px){
