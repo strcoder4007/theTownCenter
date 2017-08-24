@@ -4,7 +4,6 @@
     </p>
     <p id="projects" class="mynavOptions">projects</p>
     <div class="row gutter-0" style="margin-top: 30px;">
-        <div class="container-fluid">
 
             <span *ngFor="let project of myProjects1; let i = index">
             <div class="col-xs-6 col-md-4 project">
@@ -64,11 +63,42 @@
             <div class="row gutter-0" style="text-align: center">
                 <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
             </div>
-
-        </div>
     </div>
 
     <p id="programming" class="mynavOptions">programming</p>
+    <div class="row gutter-0" style="margin-top: 30px;">
+        <p class="about progPara">
+        I practiced algorithmic programming for 3 years. Participate in contests based on algorithms, data structures and mathematics using C++ as my primary langulage.
+        </p>
+    </div>
 
+    <div class="container-fluid">
+    <div class="col-md-5 prog">
+            <div class="row gutter-0 techSection">                        
+                <div class="col-md-12 about" style="text-align: left; padding: 0px;"><strong>Profiles:<br></strong>
+                    <a href="http://codeforces.com/profile/__STR" class="projectLink" target="_blank">&nbsp;Codeforces</a>,
+                    <a href="https://www.hackerrank.com/FrozenOnion" class="projectLink" target="_blank">&nbsp;Hackerrank</a>,
+                    <a href="http://www.spoj.com/users/strcoder4007/" class="projectLink" target="_blank">&nbsp;SPOJ</a>,
+                    <a href="https://csacademy.com/user/strcoder/" class="projectLink" target="_blank">&nbsp;CSAcademy</a>,
+                    <a href="https://atcoder.jp/user/STR" class="projectLink" target="_blank">&nbsp;AtCoder</a>,
+                    <a href="#" class="projectLink" target="_blank">&nbsp;Timus Online Judge</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-3 prog" >
+                <div class="row gutter-0 techSection">                        
+                    <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 800+ problems solved on Codeforces:</b><br> 
+                        <a href="https://github.com/strcoder4007/codeforces" class="projectLink" target="_blank">&nbsp;View on Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 prog">
+                    <div class="row gutter-0 techSection">
+                        <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 180+ problems solved on SPOJ:</b><br>
+                                <a href="https://github.com/strcoder4007/spoj" class="projectLink" target="_blank">&nbsp;View on Github</a>
+                        </div>
+                    </div>
+                </div>
+    </div>
 </div>  

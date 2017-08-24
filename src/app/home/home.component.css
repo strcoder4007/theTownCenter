@@ -1,3 +1,13 @@
+.prog {
+    min-height: 120px;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 0px !important;
+}
+.progPara {
+    padding:10px;
+}
+
 .myComponent {
     max-height: none;
     padding: 50px 5vw;
@@ -71,11 +81,20 @@
     background: transparent;
     border-radius: 0px;
 }
-.myBtn:hover {
+.myBtn:hover, .gitBtn:hover {
     background-color: white;
     color: black;
 }
-
+.gitBtn {
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: 'Circular Std Book';
+    font-size: 18px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 0px;
+}
 
 
 @media(max-width: 1920px) {
