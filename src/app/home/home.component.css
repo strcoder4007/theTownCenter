@@ -74,26 +74,16 @@
     margin: 40px;
     width: 200px;
     height: 40px;
-    color: white;
+    color: #fff;
     font-family: 'Circular Std Book';
     font-size: 18px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     background: transparent;
     border-radius: 0px;
 }
-.myBtn:hover, .gitBtn:hover {
+.myBtn:hover {
     background-color: white;
     color: black;
-}
-.gitBtn {
-    width: 200px;
-    height: 40px;
-    color: white;
-    font-family: 'Circular Std Book';
-    font-size: 18px;
-    border: 2px solid white;
-    background: transparent;
-    border-radius: 0px;
 }
 
 
