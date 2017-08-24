@@ -11,7 +11,7 @@
     color: #0077b5;
 }
 .fa-envelope-o:hover {
-    color: red;
+    color: crimson;
 }
 
 .mynavOptions {
@@ -22,7 +22,7 @@
     text-align: center;
 }
 .mynavOptions:hover {
-    color: #f8584e;
+    color: crimson;
 }
 
 .myComponents {
