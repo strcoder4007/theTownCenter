@@ -32,12 +32,12 @@
 
 @media(max-width: 1920px) {
     .mynavOptions{
-        font-size: 75px;
+        font-size: 85px;
     }
 }
 @media(max-width: 1600px){
     .mynavOptions{
-        font-size: 65px;
+        font-size: 75px;
     }
 }
 
@@ -48,34 +48,34 @@
 }
 @media(max-width: 1150px){
     .mynavOptions{
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 @media(max-width: 1000px){
     .mynavOptions{
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 @media(max-width: 768px){
     .mynavOptions{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 @media(max-width: 720px){
     .mynavOptions{
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
 @media(max-width: 580px){
     .mynavOptions{
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
 @media(max-width: 450px){
     .mynavOptions{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
