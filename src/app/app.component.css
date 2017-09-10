@@ -31,51 +31,51 @@
 }
 
 @media(max-width: 1920px) {
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 85px;
     }
 }
 @media(max-width: 1600px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 75px;
     }
 }
 
 @media(max-width: 1366px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 55px;
     }
 }
 @media(max-width: 1150px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 50px;
     }
 }
 @media(max-width: 1000px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 40px;
     }
 }
 @media(max-width: 768px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 35px;
     }
 }
 
 @media(max-width: 720px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 28px;
     }
 }
 
 @media(max-width: 580px){
-    .mynavOptions{
+    .mynavOptions, .fa{
         font-size: 22px;
     }
 }
 
 @media(max-width: 450px){
-    .mynavOptions{
-        font-size: 20px;
+    .mynavOptions, .fa{
+        font-size: 15px;
     }
 }
