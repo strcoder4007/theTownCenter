@@ -31,39 +31,39 @@
 }
 
 @media(max-width: 1920px) {
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 85px;
     }
 }
 @media(max-width: 1600px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 75px;
     }
 }
 
 @media(max-width: 1366px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 55px;
     }
 }
 @media(max-width: 1150px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 50px;
     }
 }
 @media(max-width: 1000px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 40px;
     }
 }
 @media(max-width: 768px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 35px;
     }
 }
 
 @media(max-width: 720px){
-    .mynavOptions, .fa{
+    .mynavOptions{
         font-size: 28px;
     }
 }
