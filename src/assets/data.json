@@ -4,14 +4,14 @@
         "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/memorySequence",
-        "live": "http://139.59.38.41"
+        "live": "http://139.59.38.41/memseq/"
     },
     {
         "heading": "Time My Show",
         "about": "A web app to keep track of your favourite television shows by notifying for new episodes.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/timeMyShow",
-        "live": "null"
+        "live": "http://139.59.38.41/tms/"
     },
     {
         "heading": "SAE KIET",
