@@ -32,7 +32,7 @@
         "about": "Code Hour is an open-source webapp which allows you to keep track of competitive programming contests across all websites.",
         "tech": ["AngularJs", "Javascript", "jQuery", "Bootstrap", "Bower"],        
         "git": "https://github.com/strcoder4007/Code_Hour",
-        "live": "http://codehour.online"
+        "live": "http://139.59.38.41/codehour/"
     },
     {
         "heading": "Instanotes",
@@ -46,14 +46,14 @@
         "about": "A webapp to demonstrate various types of charts and graphs using FusionCharts API. Supports JSON & CSV formats.",
         "tech": ["AngularJs", "Javascript", "FusionCharts API", "Papa Parse API", "jQuery", "Bootstrap"],
         "git": "https://github.com/strcoder4007/SCChartApp",
-        "live": "null"
+        "live": "http://139.59.38.41/chartapp/"
     },
     {
         "heading": "WYSIWYG Editor",
         "about": "WYSIWYG editor with Medium (blogging website) like features written in Vanilla JavaScript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/SCeditor",
-        "live": "null"
+        "live": "http://139.59.38.41/sceditor/"
     },
     {
         "heading": "Decibel Music Player",
@@ -67,20 +67,20 @@
         "about": "My personal website of 2016 written in Vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2016",
-        "live": "http://shubhamsingh.info"
+        "live": "http://139.59.38.41/personal2016/"
     },
     {
         "heading": "Personal Website (2015)",
         "about": "My personal website of 2015 written in vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2015",
-        "live": "http://shubhamsingh.info/old1"
+        "live": "http://139.59.38.41/personal2015/"
     },
     {
         "heading": "SAE KIET",
         "about": "Official website of SAE KIET written in Vanilla Javascript",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],     
         "git": "https://github.com/strcoder4007/SAE-KIET-Website",
-        "live": "null"
+        "live": "http://139.59.38.41/saekiet/"
     }
 ]
