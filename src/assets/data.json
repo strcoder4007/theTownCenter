@@ -10,14 +10,14 @@
         "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/memorySequence",
-        "live": "http://139.59.38.41/memseq/"
+        "live": "http://18.221.40.67/memseq/"
     },
     {
         "heading": "Time My Show",
         "about": "A web app to keep track of your favourite television shows by notifying for new episodes.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/timeMyShow",
-        "live": "http://139.59.38.41/tms/"
+        "live": "http://18.221.40.67/tms/"
     },
     {
         "heading": "SAE KIET",
@@ -38,7 +38,7 @@
         "about": "Code Hour is an open-source webapp which allows you to keep track of competitive programming contests across all websites.",
         "tech": ["AngularJs", "Javascript", "jQuery", "Bootstrap", "Bower"],        
         "git": "https://github.com/strcoder4007/Code_Hour",
-        "live": "http://139.59.38.41/codehour/"
+        "live": "http://18.221.40.67/codehour/"
     },
     {
         "heading": "Instanotes",
@@ -52,14 +52,14 @@
         "about": "A webapp to demonstrate various types of charts and graphs using FusionCharts API. Supports JSON & CSV formats.",
         "tech": ["AngularJs", "Javascript", "FusionCharts API", "Papa Parse API", "jQuery", "Bootstrap"],
         "git": "https://github.com/strcoder4007/SCChartApp",
-        "live": "http://139.59.38.41/chartapp/"
+        "live": "http://18.221.40.67/chartapp/"
     },
     {
         "heading": "WYSIWYG Editor",
         "about": "WYSIWYG editor with Medium (blogging website) like features written in Vanilla JavaScript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/SCeditor",
-        "live": "http://139.59.38.41/sceditor/"
+        "live": "http://18.221.40.67/sceditor/"
     },
     {
         "heading": "Decibel Music Player",
@@ -73,14 +73,14 @@
         "about": "My personal website of 2016 written in Vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2016",
-        "live": "http://139.59.38.41/personal2016/"
+        "live": "http://18.221.40.67/personal2016/"
     },
     {
         "heading": "Personal Website (2015)",
         "about": "My personal website of 2015 written in vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2015",
-        "live": "http://139.59.38.41/personal2015/"
+        "live": "http://18.221.40.67/personal2015/"
     },
     {
         "heading": "Personal Website",
@@ -94,6 +94,6 @@
         "about": "Official website of SAE KIET written in Vanilla Javascript",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],     
         "git": "https://github.com/strcoder4007/SAE-KIET-Website",
-        "live": "http://139.59.38.41/saekiet/"
+        "live": "http://18.221.40.67/saekiet/"
     }
 ]
