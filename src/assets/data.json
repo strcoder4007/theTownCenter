@@ -14,13 +14,6 @@
         "live": "null"
     },
     {
-        "heading": "Memory Sequences",
-        "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
-        "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
-        "git": "https://github.com/strcoder4007/memorySequence",
-        "live": "http://18.221.40.67/memseq/"
-    },
-    {
         "heading": "Code Scrapper",
         "about": "A desktop app for Linux, Windows and Mac to download code from competitive programming websites.",
         "tech": ["Javascript", "Electron Framework", "Materialize CSS", "NodeJs"],
@@ -28,8 +21,15 @@
         "live": "null"
     },
     {
+        "heading": "Memory Sequences",
+        "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
+        "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
+        "git": "https://github.com/strcoder4007/memorySequence",
+        "live": "http://18.221.40.67/memseq/"
+    },
+    {
         "heading": "Creek",
-        "about": "A simple web app for retrieving info about new albums from bands you love. You don't need to add the bands manually, just use last.fm credentials and know when a new album drops with all it's info.",
+        "about": "A simple web app to keep track of new albums from bands you love. No manually adding bands, just use last.fm credentials and know when a new album drops with all it's info.",
         "tech": ["Angular 5", "Typescript", "Last.fm api", "NodeJs", "Bootstrap"],
         "git": "https://github.com/strcoder4007/creek",
         "live": "http://18.221.40.67/creek/"
@@ -53,7 +53,7 @@
         "about": "Official website for a college club SAE KIET (mech. engineering) re-written in AngularJs.",
         "tech": ["AngularJs", "Javascript", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/sae_nodejs",
-        "live": "null"
+        "live": "http://18.221.40.67/saekiet/"
     },
     {
         "heading": "Code Hour",
@@ -106,7 +106,7 @@
     },
     {
         "heading": "Personal Website",
-        "about": "Personal website for some one else written in Vanilla Javascript.",
+        "about": "Personal website for a client written in Vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "null",
         "live": "http://divyanshusrivastava.info"

@@ -33,8 +33,12 @@
   <div class="row gutter-0 linkSection">
     <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
     </div>
-    <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+    <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
     </div>
+    <ng-template #strikeBlock>
+            <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+            </div>
+    </ng-template>
   </div>
 
 
@@ -70,8 +74,12 @@
 <div class="row gutter-0 linkSection">
   <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
   </div>
-  <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+  <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
   </div>
+  <ng-template #strikeBlock>
+          <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+          </div>
+  </ng-template>
 </div>
 </div>
 </span>
@@ -107,8 +115,12 @@
 <div class="row gutter-0 linkSection">
   <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
   </div>
-  <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+  <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
   </div>
+  <ng-template #strikeBlock>
+          <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+          </div>
+  </ng-template>
 </div>
 </div>
 </span>

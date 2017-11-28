@@ -88,6 +88,22 @@
     width: 100%;
 }
 
+.disableEffect:hover {
+    color:gray !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1920px) {
     .mynavOptions{
         font-size: 50px;
