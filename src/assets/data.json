@@ -7,17 +7,39 @@
         "live": "null"
     },
     {
-        "heading": "Code Scrapper",
-        "about": "A desktop app for Linux, Windows and Mac to download code from competitive programming websites.",
-        "tech": ["Javascript", "Electron Framework", "Materialize CSS", "NodeJs"],
-        "git": "https://github.com/strcoder4007/codescrapper",
+        "heading": "Ionic Messenger",
+        "about": "A chat app made for android and iOS for demonstrating obscure features such as going private with another user, giving a specific time to a message etc.",
+        "tech": ["Ionic 3", "Angular 5", "Firebase", "Typescript", "NodeJs"],
+        "git": "https://github.com/strcoder4007/ionic_messenger",
         "live": "null"
-    },{
+    },
+    {
         "heading": "Memory Sequences",
         "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/memorySequence",
         "live": "http://18.221.40.67/memseq/"
+    },
+    {
+        "heading": "Code Scrapper",
+        "about": "A desktop app for Linux, Windows and Mac to download code from competitive programming websites.",
+        "tech": ["Javascript", "Electron Framework", "Materialize CSS", "NodeJs"],
+        "git": "https://github.com/strcoder4007/codescrapper",
+        "live": "null"
+    },
+    {
+        "heading": "Creek",
+        "about": "A simple web app for retrieving info about new albums from bands you love. You don't need to add the bands manually, just use last.fm credentials and know when a new album drops with all it's info.",
+        "tech": ["Angular 5", "Typescript", "Last.fm api", "NodeJs", "Bootstrap"],
+        "git": "https://github.com/strcoder4007/creek",
+        "live": "http://18.221.40.67/creek/"
+    },
+    {
+        "heading": "Instacode Online Judge",
+        "about": "An online compiler and judge where algorithmic problems are to be solved under contrained memory and time limit.",
+        "tech": ["PHP", "Python", "Bootstrap", "jQuery"],
+        "git": "null",
+        "live": "http://instacode.xyz"
     },
     {
         "heading": "Time My Show",
@@ -32,13 +54,6 @@
         "tech": ["AngularJs", "Javascript", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/sae_nodejs",
         "live": "null"
-    },
-    {
-        "heading": "Instacode Online Judge",
-        "about": "An online compiler and judge where algorithmic problems are to be solved under contrained memory and time limit.",
-        "tech": ["PHP", "Python", "Bootstrap", "jQuery"],
-        "git": "null",
-        "live": "http://instacode.xyz"
     },
     {
         "heading": "Code Hour",
