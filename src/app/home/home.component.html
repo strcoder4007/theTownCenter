@@ -1,10 +1,12 @@
 <div class="container-fluid myComponent">
-    <p class="about">I am a self-taught full stack developer with 5 years of experience in making projects related to web and machine learning. My key skills are in C++, JavaScript, Python, Tensorflow, Typescript + Angular 4/5,  AngularJS, Node.js, PHP and MongoDB. Additionally, I am 3 years experienced in programming intricate algorithms and use C++ to code them.
-    </p>
-    <p id="projects" class="mynavOptions">projects</p>
-    <div class="row gutter-0" style="margin-top: 30px;">
+  <p class="about">I am a self-taught full stack developer with 5 years of experience in making projects related to web and machine learning.
+    My key skills are in C++, JavaScript, Python, Tensorflow, Typescript + Angular 4/5, AngularJS, Node.js, PHP and MongoDB.
+    Additionally, I am 3 years experienced in programming intricate algorithms and use C++ to code them.
+  </p>
+  <p id="projects" class="mynavOptions">projects</p>
+  <div class="row gutter-0" style="margin-top: 30px;">
 
-            <span *ngFor="let project of myProjects1; let i = index">
+    <span *ngFor="let project of myProjects1; let i = index">
             <div class="col-xs-3 col-md-4 project">
 
                 <!-- heading section-->
@@ -15,29 +17,29 @@
                 <!-- about section -->
 
                 <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-                </div>
+  </div>
 
-                <!-- tech section -->
+  <!-- tech section -->
 
-                <div class="row gutter-0 techSection">
-                    <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
-                    </div>
-                </div>
+  <div class="row gutter-0 techSection">
+    <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
+    </div>
+  </div>
 
-                <!-- link section -->
-                <div class="row gutter-0 linkSection">
-                    <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-                    </div>
-                    <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-                    </div>
-                </div>
+  <!-- link section -->
+  <div class="row gutter-0 linkSection">
+    <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+    </div>
+    <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+    </div>
+  </div>
 
 
-            </div>
-            </span>
+</div>
+</span>
 
-            <div *ngIf="loadFirst" class="elementToFadeIn">
-                <span *ngFor="let project of myProjects2; let i = index">
+<div *ngIf="loadFirst" class="elementToFadeIn">
+  <span *ngFor="let project of myProjects2; let i = index">
                     <div class="col-xs-6 col-md-4 project">
 
                 <!-- heading section-->
@@ -48,29 +50,29 @@
                 <!-- about section-->
                         
                         <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-                        </div>
+</div>
 
-                <!-- tech section-->
-                        
-                        <div class="row gutter-0 techSection">
-                            <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
-                            </div>
-                        </div>
+<!-- tech section-->
 
-                <!-- link section-->
-                        
-                        <div class="row gutter-0" style="height: 40px">
-                            <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-                            </div>
-                            <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-                            </div>
-                        </div>
-                    </div>
-                </span>
-            </div>
+<div class="row gutter-0 techSection">
+  <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
+  </div>
+</div>
 
-            <div *ngIf="loadSecond" class="elementToFadeIn">
-                <span *ngFor="let project of myProjects3; let i = index">
+<!-- link section-->
+
+<div class="row gutter-0" style="height: 40px">
+  <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+  </div>
+  <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+  </div>
+</div>
+</div>
+</span>
+</div>
+
+<div *ngIf="loadSecond" class="elementToFadeIn">
+  <span *ngFor="let project of myProjects3; let i = index">
                     <div class="col-xs-6 col-md-4 project">
 
                 <!-- heading section-->
@@ -81,69 +83,70 @@
                 <!-- about section-->
                         
                         <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-                        </div>
+</div>
 
-                <!-- tech section-->
-                        
-                        <div class="row gutter-0 techSection">
-                            <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
-                            </div>
-                        </div>
+<!-- tech section-->
 
-                <!-- link section-->
+<div class="row gutter-0 techSection">
+  <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
+  </div>
+</div>
 
-                        <div class="row gutter-0" style="height: 40px">
-                            <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-                            </div>
-                            <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-                            </div>
-                        </div>
-                    </div>
-                </span>
-            </div>
-            <div class="clearfix"></div>
-            <div class="row gutter-0" style="text-align: center">
-                <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
-            </div>
+<!-- link section-->
+
+<div class="row gutter-0" style="height: 40px">
+  <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+  </div>
+  <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+  </div>
+</div>
+</div>
+</span>
+</div>
+<div class="clearfix"></div>
+<div class="row gutter-0" style="text-align: center">
+  <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
+</div>
+</div>
+
+<p id="programming" class="mynavOptions">programming</p>
+<div class="row gutter-0" style="margin-top: 30px;">
+  <p class="about progPara">
+    I learned algorithmic programming for 3 years and participated in contests based on algorithms, data structures and mathematics
+    using C++ as my primary language. All my stats can be found in my profiles on various competitive programming websites.
+  </p>
+  <p class="about progPara">
+    <a href="assets/acm2017.pdf" class="projectLink" target="_blank"><i class="fa fa-trophy"></i>&nbsp;Qualified for ACM-ICPC INDIA regionals 2017.</a>
+  </p>
+</div>
+
+<div class="container-fluid">
+  <div class="col-md-5 prog">
+    <div class="row gutter-0 techSection">
+      <div class="col-md-12 about" style="text-align: left; padding: 0px;"><strong>My Profiles:<br></strong>
+        <a href="http://codeforces.com/profile/fie" class="projectLink" target="_blank">&nbsp;Codeforces</a>,
+        <a href="https://www.hackerrank.com/FrozenOnion" class="projectLink" target="_blank">&nbsp;Hackerrank</a>,
+        <a href="http://www.spoj.com/users/strcoder4007/" class="projectLink" target="_blank">&nbsp;SPOJ</a>,
+        <a href="https://csacademy.com/user/strcoder/" class="projectLink" target="_blank">&nbsp;CSAcademy</a>,
+        <a href="https://atcoder.jp/user/STR" class="projectLink" target="_blank">&nbsp;AtCoder</a>,
+        <a href="http://acm.timus.ru/author.aspx?id=199801" class="projectLink" target="_blank">&nbsp;Timus Online Judge</a>
+      </div>
     </div>
+  </div>
 
-    <p id="programming" class="mynavOptions">programming</p>
-    <div class="row gutter-0" style="margin-top: 30px;">
-        <p class="about progPara">
-        I learned algorithmic programming for 3 years and participated in contests based on algorithms, data structures and mathematics using C++ as my primary language. All my stats can be found in my profiles on various competitive programming websites.
-        </p>
-        <p class="about progPara">
-                <a href="assets/acm2017.pdf" class="projectLink" target="_blank"><i class="fa fa-trophy"></i>&nbsp;Qualified for ACM-ICPC INDIA regionals 2017.</a>
-        </p>
+  <div class="col-md-3 prog">
+    <div class="row gutter-0 techSection">
+      <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 800+ problems solved on Codeforces:</b><br>
+        <a href="https://github.com/strcoder4007/codeforces" class="projectLink" target="_blank"><i class="fa fa-github"></i> &nbsp;View on Github</a>
+      </div>
     </div>
-
-    <div class="container-fluid">
-    <div class="col-md-5 prog">
-            <div class="row gutter-0 techSection">                        
-                <div class="col-md-12 about" style="text-align: left; padding: 0px;"><strong>My Profiles:<br></strong>
-                    <a href="http://codeforces.com/profile/fie" class="projectLink" target="_blank">&nbsp;Codeforces</a>,
-                    <a href="https://www.hackerrank.com/FrozenOnion" class="projectLink" target="_blank">&nbsp;Hackerrank</a>,
-                    <a href="http://www.spoj.com/users/strcoder4007/" class="projectLink" target="_blank">&nbsp;SPOJ</a>,
-                    <a href="https://csacademy.com/user/strcoder/" class="projectLink" target="_blank">&nbsp;CSAcademy</a>,
-                    <a href="https://atcoder.jp/user/STR" class="projectLink" target="_blank">&nbsp;AtCoder</a>,
-                    <a href="http://acm.timus.ru/author.aspx?id=199801" class="projectLink" target="_blank">&nbsp;Timus Online Judge</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 prog" >
-                <div class="row gutter-0 techSection">                        
-                    <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 800+ problems solved on Codeforces:</b><br>
-                        <a href="https://github.com/strcoder4007/codeforces" class="projectLink" target="_blank"><i class="fa fa-github"></i> &nbsp;View on Github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 prog">
-                    <div class="row gutter-0 techSection">
-                        <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 180+ problems solved on SPOJ:</b><br>
-                                <a href="https://github.com/strcoder4007/spoj" class="projectLink" target="_blank"><i class="fa fa-github"></i> &nbsp;View on Github</a>
-                        </div>
-                    </div>
-                </div>
+  </div>
+  <div class="col-md-3 prog">
+    <div class="row gutter-0 techSection">
+      <div class="col-md-12 about" style="text-align: left; padding: 0px"><b>Code to 180+ problems solved on SPOJ:</b><br>
+        <a href="https://github.com/strcoder4007/spoj" class="projectLink" target="_blank"><i class="fa fa-github"></i> &nbsp;View on Github</a>
+      </div>
     </div>
-</div>  
+  </div>
+</div>
+</div>
