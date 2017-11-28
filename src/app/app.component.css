@@ -30,52 +30,65 @@
     padding-bottom: 150px;
 }
 
+.navOps {
+    margin-top: 70px;
+}
+
 @media(max-width: 1920px) {
     .mynavOptions{
-        font-size: 85px;
+        font-size: 65px;
     }
 }
 @media(max-width: 1600px){
     .mynavOptions{
-        font-size: 75px;
+        font-size: 60px;
     }
 }
 
 @media(max-width: 1366px){
     .mynavOptions{
-        font-size: 55px;
+        font-size: 50px;
     }
 }
 @media(max-width: 1150px){
     .mynavOptions{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 @media(max-width: 1000px){
     .mynavOptions{
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 @media(max-width: 768px){
     .mynavOptions{
-        font-size: 35px;
+        font-size: 25px;
+    }
+    .navOps {
+        margin-top: 40px;
     }
 }
 
 @media(max-width: 720px){
     .mynavOptions{
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
 @media(max-width: 580px){
     .mynavOptions, .fa{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .navOps {
+        margin-top: 30px;
     }
 }
 
 @media(max-width: 450px){
     .mynavOptions, .fa{
         font-size: 15px;
+    }
+    .navOps {
+        margin-top: 20px;
     }
 }

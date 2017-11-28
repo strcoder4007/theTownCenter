@@ -10,7 +10,7 @@
 
 .myComponent {
     max-height: none;
-    padding: 50px 5vw;
+    padding: 40px 5vw;
 }
 
 .about {
@@ -18,7 +18,6 @@
     font-family: 'Circular Std Book';
     font-size: 20px;
     text-align: justify;
-    padding-bottom: 30px;
 }
 
 .mynavOptions {
@@ -66,10 +65,6 @@
     font-size: 20px;
     color: whitesmoke;
 }
-.techSection {
-    padding: 5px;
-    height: 170px;
-}
 .myBtn {
     margin: 40px;
     width: 200px;
@@ -87,9 +82,15 @@
 }
 
 
+.linkSection {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
 @media(max-width: 1920px) {
     .mynavOptions{
-        font-size: 65px;
+        font-size: 50px;
     }
     .about {
         font-size: 30px;
@@ -99,16 +100,16 @@
         height: 400px;
     }
     .projectHeadingContainer {
-        font-size: 30px;
+        font-size: 27px;
         height: 50px;
     }
     .projectAbout {
         height: 130px;
-        font-size: 25px;
+        font-size: 23px;
         padding: 10px;
     }
     .projectLink{
-        font-size: 25px;
+        font-size: 23px;
     }
     .techSection {
         padding: 10px;
@@ -117,7 +118,7 @@
 }
 @media(max-width: 1600px){
     .mynavOptions{
-        font-size: 55px;
+        font-size: 40px;
     }
     .about {
         font-size: 28px;
@@ -140,13 +141,13 @@
     }
     .techSection {
         padding: 7px;
-        height: 100px;
+        height: 150px;
     }
 }
 
 @media(max-width: 1366px){
     .mynavOptions{
-        font-size: 45px;
+        font-size: 40px;
     }
     .about {
         font-size: 20px;
@@ -161,11 +162,11 @@
     }
     .projectAbout {
         height: 100px;
-        font-size: 18px;
+        font-size: 17px;
         padding: 5px;
     }
     .projectLink{
-        font-size: 18px;
+        font-size: 17px;
     }
     .techSection {
         padding: 5px;
@@ -189,11 +190,25 @@
     .about {
         font-size: 15px;
     }
-}
-
-@media(max-width: 720px){
-    .mynavOptions{
-        font-size: 20px;
+    .project{
+        width: 300px;
+        height: 250px;
+    }
+    .projectHeadingContainer {
+        font-size: 17px;
+        height: 40px;
+    }
+    .projectAbout {
+        height: 90px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .projectLink{
+        font-size: 15px;
+    }
+    .techSection {
+        padding: 5px;
+        height: 80px;
     }
 }
 
@@ -202,8 +217,27 @@
         font-size: 20px;
     }
     .project{
-        width: 350px;
-        min-height: 200px;
+        width: 240px;
+        height: 240px;
+    }
+    .about {
+        font-size: 14px;
+    }
+    .projectHeadingContainer {
+        font-size: 15px;
+        height: 40px;
+    }
+    .projectAbout {
+        height: 80px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .projectLink{
+        font-size: 13px;
+    }
+    .techSection {
+        padding: 5px;
+        height: 70px;
     }
 }
 
@@ -213,6 +247,9 @@
     }
     .project{
         width: 300px;
-        min-height: 200px;
+        height: 240px;
+    }
+    .about {
+        font-size: 13px;
     }
 }

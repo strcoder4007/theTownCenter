@@ -5,31 +5,60 @@
     <div class="row gutter-0" style="margin-top: 30px;">
 
             <span *ngFor="let project of myProjects1; let i = index">
-            <div class="col-xs-6 col-md-4 project">
-                <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
-                <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
-                <div class="row gutter-0 techSection">                        
-                    <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
+            <div class="col-xs-3 col-md-4 project">
+
+                <!-- heading section-->
+
+                <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
+                </div>
+
+                <!-- about section -->
+
+                <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
+                </div>
+
+                <!-- tech section -->
+
+                <div class="row gutter-0 techSection">
+                    <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
                     </div>
                 </div>
-                <div class="row gutter-0" style="height: 40px">
+
+                <!-- link section -->
+                <div class="row gutter-0 linkSection">
                     <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
                     </div>
                     <div class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
                     </div>
                 </div>
+
+
             </div>
             </span>
 
             <div *ngIf="loadFirst" class="elementToFadeIn">
                 <span *ngFor="let project of myProjects2; let i = index">
                     <div class="col-xs-6 col-md-4 project">
-                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
-                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
-                        <div class="row gutter-0 techSection">                        
-                            <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
+
+                <!-- heading section-->
+                        
+                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
+                        </div>
+
+                <!-- about section-->
+                        
+                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
+                        </div>
+
+                <!-- tech section-->
+                        
+                        <div class="row gutter-0 techSection">
+                            <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
                             </div>
                         </div>
+
+                <!-- link section-->
+                        
                         <div class="row gutter-0" style="height: 40px">
                             <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
                             </div>
@@ -43,12 +72,26 @@
             <div *ngIf="loadSecond" class="elementToFadeIn">
                 <span *ngFor="let project of myProjects3; let i = index">
                     <div class="col-xs-6 col-md-4 project">
-                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p></div>
-                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span></div>
-                        <div class="row gutter-0 techSection">                        
-                            <div class="col-md-12 projectAbout" style="text-align: left; padding: 0px"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
+
+                <!-- heading section-->
+                        
+                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
+                        </div>
+
+                <!-- about section-->
+                        
+                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
+                        </div>
+
+                <!-- tech section-->
+                        
+                        <div class="row gutter-0 techSection">
+                            <div class="col-md-12 projectAbout" style="text-align: left;"><strong>Technologies Used:<br></strong>      <span *ngFor="let tech of project.tech">{{tech}} </span>
                             </div>
                         </div>
+
+                <!-- link section-->
+
                         <div class="row gutter-0" style="height: 40px">
                             <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
                             </div>
