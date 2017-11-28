@@ -1,5 +1,12 @@
 [
     {
+        "heading": "One Hot True",
+        "about": "A neural net trained on mnist dataset to recognize digits from 28x28 images using Tensorflow without using convolutional model (accuracy ~ 95%) .",
+        "tech": ["Python", "TensorFlow", "Mnist Dataset"],
+        "git": "https://github.com/strcoder4007/one_hot_true",
+        "live": "null"
+    },
+    {
         "heading": "Code Scrapper",
         "about": "A desktop app for Linux, Windows and Mac to download code from competitive programming websites.",
         "tech": ["Javascript", "Electron Framework", "Materialize CSS", "NodeJs"],
