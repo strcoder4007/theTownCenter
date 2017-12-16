@@ -1,4 +1,11 @@
-[
+[   
+    {
+    "heading": "Whatsapp Stalker (team of 2)",
+    "about": "A web app for stalking on whatsapp by getting automatic notifications. Get notifs when he/she comes online, changes status, changes profile pic and his/her last hour activity.",
+    "tech": ["Javascript", "Angular 5", "Typescript", "NodeJs"],
+    "git": "https://github.com/aditya6677/WA-Stocking",
+    "live": "http://18.221.40.67/stalker/"    
+    },
     {
         "heading": "One Hot True",
         "about": "A neural net trained on mnist dataset to recognize digits from 28x28 images using Tensorflow without using convolutional model (accuracy ~ 95%) .",
