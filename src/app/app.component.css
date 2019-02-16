@@ -1,3 +1,28 @@
+.smallFont {
+  font-size: 20px;
+  font-family: 'Circular Std Black';
+}
+.mediumFont {
+  font-size: 25px;
+  font-family: 'Circular Std Medium';
+}
+.largeFont {
+  font-size: 30px;
+  font-family: 'Circular Std Black';
+}
+.is-primary {
+  color: whitesmoke;
+}
+.is-secondary {
+  color: #000000;
+}
+
+.headerItem {
+
+}
+
+
+
 .fa {
     font-size: 25px;
     padding: 10px;
