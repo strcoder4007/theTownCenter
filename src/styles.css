@@ -27,10 +27,10 @@ a:hover {
   font-size: 1rem;
 }
 .mediumFont {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .largeFont {
-  font-size: 2.7rem;
+  font-size: 1.5rem;
 }
 .is-primary {
   color: whitesmoke;
@@ -47,6 +47,21 @@ a:hover {
 }
 .card-body {
   border: 2px solid whitesmoke;
+}
+
+
+@media (min-width: 992px) {
+  .largeFont {
+    font-size: 2rem;
+  }
+  .mediumFont {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .largeFont {
+    font-size: 2.5rem;
+  }
 }
 
 ::-webkit-scrollbar {

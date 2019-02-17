@@ -13,11 +13,6 @@ export class AppComponent implements OnInit {
     this.router = router;
   }
 
-  headerClick(header) {
-    this.router.navigateByUrl('#' + header);
-    //alert(header);
-  }
-
   ngOnInit() {
   }
 }
