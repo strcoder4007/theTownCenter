@@ -8,7 +8,9 @@ a:hover {
   transition: color 0.2s ease;
   color: crimson;
 }
-
+.text-crimson {
+  color: crimson;
+}
 .roboto {
   font-family: 'Roboto';
 }
@@ -32,12 +34,9 @@ a:hover {
 .is-secondary {
   color: #000000;
 }
-.mynavOptions {
-  margin-left: -13px !important;
-}
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
 }
 
 body {
@@ -49,15 +48,15 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
     background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: white;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.5);
 }
 
 .elementToFadeIn {
