@@ -1,3 +1,40 @@
+/*
+Staatliches
+Roboto
+*/
+
+a:hover {
+  text-decoration: none;
+  transition: color 0.2s ease;
+  color: crimson;
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.staat {
+  font-family: 'Staatliches';
+}
+
+.smallFont {
+  font-size: 1.1rem;
+}
+.mediumFont {
+  font-size: 1.3rem;
+}
+.largeFont {
+  font-size: 2.7rem;
+}
+.is-primary {
+  color: whitesmoke;
+}
+.is-secondary {
+  color: #000000;
+}
+.mynavOptions {
+  margin-left: -13px !important;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -8,6 +45,7 @@ body {
 }
 
 html {
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-track {

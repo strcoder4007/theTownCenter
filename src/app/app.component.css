@@ -1,28 +1,3 @@
-.smallFont {
-  font-size: 20px;
-  font-family: 'Circular Std Black';
-}
-.mediumFont {
-  font-size: 25px;
-  font-family: 'Circular Std Medium';
-}
-.largeFont {
-  font-size: 30px;
-  font-family: 'Circular Std Black';
-}
-.is-primary {
-  color: whitesmoke;
-}
-.is-secondary {
-  color: #000000;
-}
-
-.headerItem {
-
-}
-
-
-
 .fa {
     font-size: 25px;
     padding: 10px;
@@ -40,80 +15,9 @@
 }
 
 .mynavOptions {
-    color: white;
-    font-family: 'Circular Std Black';
     cursor: pointer;
     transition: color 0.2s ease;
-    text-align: center;
 }
 .mynavOptions:hover {
     color: crimson;
-}
-
-.myComponents {
-    max-height: none;
-    padding-bottom: 150px;
-}
-
-.navOps {
-    margin-top: 70px;
-}
-
-@media(max-width: 1920px) {
-    .mynavOptions{
-        font-size: 65px;
-    }
-}
-@media(max-width: 1600px){
-    .mynavOptions{
-        font-size: 60px;
-    }
-}
-
-@media(max-width: 1366px){
-    .mynavOptions{
-        font-size: 50px;
-    }
-}
-@media(max-width: 1150px){
-    .mynavOptions{
-        font-size: 40px;
-    }
-}
-@media(max-width: 1000px){
-    .mynavOptions{
-        font-size: 30px;
-    }
-}
-@media(max-width: 768px){
-    .mynavOptions{
-        font-size: 25px;
-    }
-    .navOps {
-        margin-top: 40px;
-    }
-}
-
-@media(max-width: 720px){
-    .mynavOptions{
-        font-size: 20px;
-    }
-}
-
-@media(max-width: 580px){
-    .mynavOptions, .fa{
-        font-size: 20px;
-    }
-    .navOps {
-        margin-top: 30px;
-    }
-}
-
-@media(max-width: 450px){
-    .mynavOptions, .fa{
-        font-size: 15px;
-    }
-    .navOps {
-        margin-top: 20px;
-    }
 }

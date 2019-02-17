@@ -8,26 +8,6 @@
     padding:10px;
 }
 
-.myComponent {
-    max-height: none;
-    padding: 40px 5vw;
-}
-
-.about {
-    color: whitesmoke;
-    font-family: 'Circular Std Book';
-    font-size: 20px;
-    text-align: justify;
-}
-
-.mynavOptions {
-    color: white;
-    font-family: 'Circular Std Black';
-    font-size: 40px;
-    transition: color 0.2s ease;
-    margin: 30px 0px;
-}
-
 .project {
     height: 250px;
     border: 2px solid white;
