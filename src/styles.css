@@ -34,6 +34,16 @@ a:hover {
 .is-secondary {
   color: #000000;
 }
+.bg-black {
+  background-color: #000000;
+}
+
+.card {
+  border-radius: 0px;
+}
+.card-body {
+  border: 2px solid whitesmoke;
+}
 
 ::-webkit-scrollbar {
     width: 6px;

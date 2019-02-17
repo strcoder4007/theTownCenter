@@ -13,28 +13,18 @@ export class HomeComponent implements OnInit {
     myProjects = [];
     myProjects1 = [];
     myProjects2 = [];
-    myProjects3 = [];
-    myClicks = 0;
     loadFirst = false;
-    loadSecond = false;
     buttonText = 'Load More';
 
     constructor(public http: Http) { }
 
     loadMore() {
         if (this.buttonText == 'Show Less') {
-            this.myClicks = 0;
             this.loadFirst = false;
-            this.loadSecond = false;
             this.buttonText = 'Load More';
         } else {
-            ++this.myClicks;
-            if (this.myClicks == 1)
-                this.loadFirst = true;
-            else if (this.myClicks == 2) {
-                this.loadSecond = true;
-                this.buttonText = 'Show Less';
-            }
+          this.loadFirst = true;
+          this.buttonText = 'Show Less';
         }
     }
 
@@ -45,17 +35,15 @@ export class HomeComponent implements OnInit {
     processJson() {
         this.getposts().subscribe((projects) => {
             this.myProjects = projects;
-            // console.log(this.myProjects);
+            console.log(this.myProjects);
             for (let i  = 0; i < this.myProjects.length; i++) {
                 for (let j = 0; j < this.myProjects[i].tech.length - 1; j++) {
                     this.myProjects[i].tech[j] = this.myProjects[i].tech[j] + ',';
                 }
-                if (i < 6)
+                if (i < 9)
                     this.myProjects1.push(this.myProjects[i]);
-                else if (i < 9)
-                    this.myProjects2.push(this.myProjects[i]);
                 else
-                    this.myProjects3.push(this.myProjects[i]);
+                    this.myProjects2.push(this.myProjects[i]);
             }
         });
     }

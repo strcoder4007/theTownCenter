@@ -1,147 +1,134 @@
 <div class="col-11 offset-md-1 p-0">
   <p class="roboto mediumFont is-primary">
-    I am a <span class="text-crimson">full stack web developer</span> <br>with over <span class="text-crimson">1.5 years</span> of experience <br>in <span class="text-crimson">JavaScript</span>, PHP, <span class="text-crimson">NodeJs</span>, ExpressJs, <span class="text-crimson">ReactJs</span>, <br><span class="text-crimson">VueJS</span>, <span class="text-crimson">Angular</span>, Laravel, <span class="text-crimson">MongoDB</span>, <span class="text-crimson">SQL</span>, PostGreSQL <br>with background in <span class="text-crimson">Algorithms</span> and <span class="text-crimson">Data Structure</span> using <span class="text-crimson">C++</span>.
+    I am a <span class="text-crimson">full stack web developer</span> <br>with over <span class="text-crimson">1.5 years</span> of experience <br>in <span class="text-crimson">JavaScript</span>, PHP, <span class="text-crimson">NodeJs</span>, ExpressJs, <span class="text-crimson">ReactJs</span>, <br><span class="text-crimson">VueJS</span>, <span class="text-crimson">Angular</span>, Laravel, <span class="text-crimson">MongoDB</span>, <span class="text-crimson">SQL</span>, PostGreSQL <br>with background in <span class="text-crimson">Algorithms</span> and <span class="text-crimson">Data Structures</span> using <span class="text-crimson">C++</span>.
   </p>
 
   <div>
     <p id="experience" class="mynavOptions largeFont staat is-primary pt-5 pb-3">experience</p>
-    <p class="mediumFont is-primary Roboto">Full Stack Web Developer @ ALLPS Digital GmbH</p>
-    <ul>
-      <li class="smallFont is-primary Roboto">Frontend Tasks</li>
-      <li class="smallFont is-primary Roboto">Backend using PHP</li>
-      <li class="smallFont is-primary Roboto">Frontend using VueJS</li>
-    </ul>
-    <p class="mediumFont is-primary Roboto">Full Stack Intern @ Cartisan</p>
-    <p class="mediumFont is-primary Roboto">Software Intern @ Wallfruit Technologies</p>
+
+
+    <div class="row gutter-0 d-flex justify-content-around">
+      <div class="col-sm-4 mb-3">
+        <div class="col-11 bg-dark card p-0">
+          <div class="card-body bg-black p-0 bg-">
+            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
+              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">Full Stack Web Developer @ ALLPS Digital GmbH</p>
+            </div>
+            <p class="card-text p-2 is-primary">June 2018 - present<br>
+              I've been working as <span class="text-crimson">Full stack Web Developer</span> on multiple client <span class="text-crimson">Fintech</span> projects using Javascript, NodeJS, VueJS, <span class="text-crimson">ReactJS</span> as well as on our own product using PHP, Laravel etc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3">
+        <div class="col-11 bg-dark card p-0">
+          <div class="card-body bg-black p-0 bg-">
+            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
+              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">Full Stack Intern @ Cartisan</p>
+            </div>
+            <p class="card-text p-2 is-primary">April 2018 - June 2018<br>
+              Built a <span class="text-crimson">livestream using MEAN stack</span> and Alicloud as the streaming server. Worked with various web <span class="text-crimson">video encoders and decoders</span> running on <span class="text-crimson">Nodejs</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3">
+        <div class="col-11 bg-dark card p-0">
+          <div class="card-body bg-black p-0 bg-">
+            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
+              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">Intern @ Wallfruit Technologies</p>
+            </div>
+            <p class="card-text p-2 is-primary">Dec 2016 - Mar 2017<br>
+              Built the <span class="text-crimson">frontend of a SaaS based platform</span> for construction engineers to manage their blueprints, material, workers and progress using <span class="text-crimson">Angular</span> and <span class="text-crimson">Leaflet.js</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <p id="projects" class="mynavOptions largeFont staat is-primary pt-5 pb-3">projects</p>
-  <div class="row gutter-0 p-0">
 
 <!--------------------------------1st -------------------------------- -->
-    
-
-    <span *ngFor="let project of myProjects1; let i = index">
-            <div class="col-xs-3 col-md-4 project">
-
-                <!-- heading section-->
-
-                <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
-                </div>
-
-                <!-- about section -->
-
-                <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-  </div>
-
-  <!-- tech section -->
-
-  <div class="row gutter-0 techSection">
-    <div class="col-md-12 projectAbout" style="text-align: left;  padding: 0px;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
-    </div>
-  </div>
-
-  <!-- link section -->
-  <div class="row gutter-0 linkSection">
-    <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-    </div>
-    <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-    </div>
-    <ng-template #strikeBlock>
-            <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+  <div class="row gutter-0 d-flex justify-content-around">
+      <div class="col-sm-4 mb-3" *ngFor="let project of myProjects1; let i = index">
+        <div class="col-11 bg-dark card p-0">
+          <div class="card-body bg-black p-0">
+            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
+              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">{{project.heading}}</p>
             </div>
-    </ng-template>
+            <p class="card-text p-2 is-primary">
+              {{project.about}}
+            </p>
+            <p class="card-text px-2 py-0 m-0 is-primary smallFont Roboto">
+              Technologies Used:
+            </p>
+            <p class="card-text p-2 is-primary">
+              <span *ngFor="let tech of project.tech">{{tech}}&nbsp;</span>
+            </p>
+
+            <div class="row gutter-0 w-100 bg-black d-flex justify-content-around is-primary">
+              <div class="col">
+                <a href="{{project.git}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+              </div>
+              <div *ngIf="project.live.length != 4; else strikeBlock"class="col">
+                <a href="{{project.live}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+              </div>
+              <ng-template #strikeBlock>
+                <div class="col projectLink disableEffect is-primary Roboto smallFont">
+                  <i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+                </div>
+              </ng-template>
+            </div>
+
+          </div>
+        </div>
+      </div>
   </div>
-
-
-</div>
-</span>
-
-
 <!--------------------------------2nd -------------------------------- -->
+  <div *ngIf="loadFirst" class="row gutter-0 d-flex justify-content-around elementToFadeIn">
+      <div class="col-sm-4 mb-3" *ngFor="let project of myProjects2; let i = index">
+        <div class="col-11 bg-dark card p-0">
+          <div class="card-body bg-black p-0">
+            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
+              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">{{project.heading}}</p>
+            </div>
+            <p class="card-text p-2 is-primary">
+              {{project.about}}
+            </p>
+            <p class="card-text px-2 py-0 m-0 is-primary smallFont Roboto">
+              Technologies Used:
+            </p>
+            <p class="card-text p-2 is-primary">
+              <span *ngFor="let tech of project.tech">{{tech}}&nbsp;</span>
+            </p>
 
-<div *ngIf="loadFirst" class="elementToFadeIn">
-  <span *ngFor="let project of myProjects2; let i = index">
-                    <div class="col-xs-6 col-md-4 project">
+            <div class="row gutter-0 w-100 bg-black d-flex justify-content-around is-primary">
+              <div class="col">
+                <a href="{{project.git}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+              </div>
+              <div *ngIf="project.live.length != 4; else strikeBlock"class="col">
+                <a href="{{project.live}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+              </div>
+              <ng-template #strikeBlock>
+                <div class="col projectLink disableEffect is-primary Roboto smallFont">
+                  <i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
+                </div>
+              </ng-template>
+            </div>
 
-                <!-- heading section-->
-                        
-                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
-                        </div>
-
-                <!-- about section-->
-                        
-                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-</div>
-
-<!-- tech section-->
-
-<div class="row gutter-0 techSection">
-  <div class="col-md-12 projectAbout" style="text-align: left;  padding: 0px;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
-  </div>
-</div>
-
-<!-- link section-->
-
-<div class="row gutter-0 linkSection">
-  <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-  </div>
-  <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-  </div>
-  <ng-template #strikeBlock>
-          <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
           </div>
-  </ng-template>
-</div>
-</div>
-</span>
-</div>
-
-
-<!-------------------------------3rd--------------------------------- -->
-
-
-<div *ngIf="loadSecond" class="elementToFadeIn">
-  <span *ngFor="let project of myProjects3; let i = index">
-                    <div class="col-xs-6 col-md-4 project">
-
-                <!-- heading section-->
-                        
-                        <div class="row gutter-0 projectHeadingContainer"><p class="projectHeading">{{project.heading}}</p>
-                        </div>
-
-                <!-- about section-->
-                        
-                        <div class="row gutter-0 projectAbout"><span>{{project.about}}</span>
-</div>
-
-<!-- tech section-->
-
-<div class="row gutter-0 techSection">
-  <div class="col-md-12 projectAbout" style="text-align: left;  padding: 0px;"><strong>Technologies Used:<br></strong> <span *ngFor="let tech of project.tech">{{tech}} </span>
+        </div>
+      </div>
   </div>
-</div>
 
-<!-- link section-->
+  <div class="clearfix"></div>
+  <div class="row gutter-0 justify-content-around">
+    <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
+  </div>
 
-<div class="row gutter-0 linkSection">
-  <div class="col-xs-6" style="text-align: center"><a href="{{project.git}}" class="projectLink" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-  </div>
-  <div *ngIf="project.live.length != 4; else strikeBlock"class="col-xs-6" style="text-align: center"><a href="{{project.live}}" class="projectLink" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-  </div>
-  <ng-template #strikeBlock>
-          <div class="col-xs-6 projectLink disableEffect" style="text-align: center"><i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
-          </div>
-  </ng-template>
-</div>
-</div>
-</span>
-</div>
-<div class="clearfix"></div>
-<div class="row gutter-0" style="text-align: center">
-  <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
-</div>
-</div>
+  <!-------------------------------Programming--------------------------------- -->
+
 
 <p id="programming" class="mynavOptions">programming</p>
 <div class="row gutter-0" style="margin-top: 30px;">
