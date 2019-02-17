@@ -19,11 +19,15 @@ a:hover {
   font-family: 'Staatliches';
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .smallFont {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .mediumFont {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .largeFont {
   font-size: 2.7rem;

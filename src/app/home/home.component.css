@@ -1,8 +1,5 @@
 .prog {
-    min-height: 120px;
     border: 2px solid white;
-    margin: 10px;
-    padding: 0px !important;
 }
 .progPara {
     padding:10px;
