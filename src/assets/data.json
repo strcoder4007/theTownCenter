@@ -4,7 +4,7 @@
     "about": "A web app for stalking on whatsapp by getting automatic notifications. Get notifs when he/she comes online, changes status, changes profile pic and his/her last hour activity.",
     "tech": ["Javascript", "Angular 5", "Typescript", "NodeJs"],
     "git": "https://github.com/aditya6677/WA-Stocking",
-    "live": "http://18.221.40.67/stalker/"    
+    "live": "http://18.216.186.17/stalker/"
     },
     {
         "heading": "One Hot True",
@@ -32,14 +32,14 @@
         "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/memorySequence",
-        "live": "http://18.221.40.67/memseq/"
+        "live": "http://18.216.186.17/memseq/"
     },
     {
         "heading": "Creek",
         "about": "A simple web app to keep track of new albums from bands you love. No manually adding bands, just use last.fm credentials and know when a new album drops with all it's info.",
         "tech": ["Angular 5", "Typescript", "Last.fm api", "NodeJs", "Bootstrap"],
         "git": "https://github.com/strcoder4007/creek",
-        "live": "http://18.221.40.67/creek/"
+        "live": "http://18.216.186.17/creek/"
     },
     {
         "heading": "Instacode Online Judge",
@@ -53,21 +53,21 @@
         "about": "A web app to keep track of your favourite television shows by notifying for new episodes.",
         "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/timeMyShow",
-        "live": "http://18.221.40.67/tms/"
+        "live": "http://18.216.186.17/tms/"
     },
     {
         "heading": "SAE KIET",
         "about": "Official website for a college club SAE KIET (mech. engineering) re-written in AngularJs.",
         "tech": ["AngularJs", "Javascript", "Bootstrap", "NodeJs"],
         "git": "https://github.com/strcoder4007/sae_nodejs",
-        "live": "http://18.221.40.67/saekiet/"
+        "live": "http://18.216.186.17/saekiet/"
     },
     {
         "heading": "Code Hour",
         "about": "Code Hour is an open-source webapp which allows you to keep track of competitive programming contests across all websites.",
         "tech": ["AngularJs", "Javascript", "jQuery", "Bootstrap", "Bower"],        
         "git": "https://github.com/strcoder4007/Code_Hour",
-        "live": "http://18.221.40.67/codehour/"
+        "live": "http://18.216.186.17/codehour/"
     },
     {
         "heading": "Instanotes",
@@ -81,14 +81,14 @@
         "about": "A webapp to demonstrate various types of charts and graphs using FusionCharts API. Supports JSON & CSV formats.",
         "tech": ["AngularJs", "Javascript", "FusionCharts API", "Papa Parse API", "jQuery", "Bootstrap"],
         "git": "https://github.com/strcoder4007/SCChartApp",
-        "live": "http://18.221.40.67/chartapp/"
+        "live": "http://18.216.186.17/chartapp/"
     },
     {
         "heading": "WYSIWYG Editor",
         "about": "WYSIWYG editor with Medium (blogging website) like features written in Vanilla JavaScript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/SCeditor",
-        "live": "http://18.221.40.67/sceditor/"
+        "live": "http://18.216.186.17/sceditor/"
     },
     {
         "heading": "Decibel Music Player",
@@ -102,14 +102,14 @@
         "about": "My personal website of 2016 written in Vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "jQuery"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2016",
-        "live": "http://18.221.40.67/personal2016/"
+        "live": "http://18.216.186.17/personal2016/"
     },
     {
         "heading": "Personal Website (2015)",
         "about": "My personal website of 2015 written in vanilla Javascript.",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2015",
-        "live": "http://18.221.40.67/personal2015/"
+        "live": "http://18.216.186.17/personal2015/"
     },
     {
         "heading": "Personal Website",
@@ -123,6 +123,6 @@
         "about": "Official website of SAE KIET written in Vanilla Javascript",
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],     
         "git": "https://github.com/strcoder4007/SAE-KIET-Website",
-        "live": "http://18.221.40.67/saekiet/"
+        "live": "http://18.216.186.17/saekiet/"
     }
 ]
