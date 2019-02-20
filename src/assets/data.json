@@ -1,23 +1,51 @@
-[   
+[
     {
-    "heading": "Whatsapp Stalker (team of 2)",
-    "about": "A web app for stalking on whatsapp by getting automatic notifications. Get notifs when he/she comes online, changes status, changes profile pic and his/her last hour activity.",
+      "heading": "Letscode React Schedule",
+      "about": "Letscode is a webapp which allows you to keep track of all competitive programming contests across Hackerrank, Codeforces, TopCoder, CodeChef, HackerEarth etc.",
+      "tech": ["Javascript", "React 16", "Redux", "NodeJs"],
+      "git": "https://github.com/strcoder4007/letscode",
+      "live": "http://18.216.186.17/letscode/"
+    },
+    {
+      "heading": "Memory Sequences",
+      "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
+      "tech": ["Angular 7", "Typescript", "Angular-cli", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/memorySequence",
+      "live": "http://18.216.186.17/memseq/"
+    },
+    {
+      "heading": "Time My Show",
+      "about": "A progressive web app to search and subscribe to tv shows for new episodes of all subscribed shows sorted.",
+      "tech": ["Angular 7", "Typescript 3", "Angular-cli", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/timeMyShow",
+      "live": "http://18.216.186.17/tms/"
+    },
+    {
+      "heading": "Ionic Messenger (iOS/Android)",
+      "about": "A chat app made for android and iOS for demonstrating obscure features such as going private with another user, giving a specific time to a message etc.",
+      "tech": ["Ionic 3", "Angular 5", "Firebase", "NodeJs"],
+      "git": "https://github.com/strcoder4007/ionic_messenger",
+      "live": "null"
+    },
+    {
+    "heading": "Whatsapp Daemon (team of 2)",
+    "about": "A web app tool for bypassing whatsapp restrictions and getting automatic notifications when user comes online, changes status, changes profile pic or their last hour activity.",
     "tech": ["Javascript", "Angular 5", "Typescript", "NodeJs"],
     "git": "https://github.com/aditya6677/WA-Stocking",
     "live": "http://18.216.186.17/stalker/"
+    },
+    {
+      "heading": "Chart App #2 (IPL Stats)",
+      "about": "A web app for demonstration of certain chart.js elements while comparing the real life data of IPL matches from 2008 till 2016.",
+      "tech": ["Javascript", "Vue 2", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/scipl",
+      "live": "http://18.216.186.17/scipl/"
     },
     {
         "heading": "One Hot True",
         "about": "A neural net trained on mnist dataset to recognize digits from 28x28 images using Tensorflow without using convolutional model (accuracy ~ 95%) .",
         "tech": ["Python", "TensorFlow", "Mnist Dataset"],
         "git": "https://github.com/strcoder4007/one_hot_true",
-        "live": "null"
-    },
-    {
-        "heading": "Ionic Messenger",
-        "about": "A chat app made for android and iOS for demonstrating obscure features such as going private with another user, giving a specific time to a message etc.",
-        "tech": ["Ionic 3", "Angular 5", "Firebase", "Typescript", "NodeJs"],
-        "git": "https://github.com/strcoder4007/ionic_messenger",
         "live": "null"
     },
     {
@@ -28,11 +56,11 @@
         "live": "null"
     },
     {
-        "heading": "Memory Sequences",
-        "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
-        "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
-        "git": "https://github.com/strcoder4007/memorySequence",
-        "live": "http://18.216.186.17/memseq/"
+      "heading": "Instacode Online Judge",
+      "about": "An online compiler and judge where algorithmic problems are to be solved under contrained memory and time limit.",
+      "tech": ["PHP", "Python", "Bootstrap", "jQuery"],
+      "git": "null",
+      "live": "http://instacode.xyz"
     },
     {
         "heading": "Creek",
@@ -40,20 +68,6 @@
         "tech": ["Angular 5", "Typescript", "Last.fm api", "NodeJs", "Bootstrap"],
         "git": "https://github.com/strcoder4007/creek",
         "live": "http://18.216.186.17/creek/"
-    },
-    {
-        "heading": "Instacode Online Judge",
-        "about": "An online compiler and judge where algorithmic problems are to be solved under contrained memory and time limit.",
-        "tech": ["PHP", "Python", "Bootstrap", "jQuery"],
-        "git": "null",
-        "live": "http://instacode.xyz"
-    },
-    {
-        "heading": "Time My Show",
-        "about": "A web app to keep track of your favourite television shows by notifying for new episodes.",
-        "tech": ["Angular 4", "Typescript", "Angular-cli", "Bootstrap", "NodeJs"],
-        "git": "https://github.com/strcoder4007/timeMyShow",
-        "live": "http://18.216.186.17/tms/"
     },
     {
         "heading": "SAE KIET",
@@ -77,7 +91,7 @@
         "live": "http://instanotes.xyz"
     },
     {
-        "heading": "Chart App",
+        "heading": "Chart App #1",
         "about": "A webapp to demonstrate various types of charts and graphs using FusionCharts API. Supports JSON & CSV formats.",
         "tech": ["AngularJs", "Javascript", "FusionCharts API", "Papa Parse API", "jQuery", "Bootstrap"],
         "git": "https://github.com/strcoder4007/SCChartApp",
@@ -110,13 +124,6 @@
         "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],        
         "git": "https://github.com/strcoder4007/Personal-Website-2015",
         "live": "http://18.216.186.17/personal2015/"
-    },
-    {
-        "heading": "Personal Website",
-        "about": "Personal website for a client written in Vanilla Javascript.",
-        "tech": ["Javascript", "Bootstrap", "jQuery"],        
-        "git": "null",
-        "live": "http://divyanshusrivastava.info"
     },
     {
         "heading": "SAE KIET",
