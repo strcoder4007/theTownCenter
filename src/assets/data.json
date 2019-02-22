@@ -1,10 +1,10 @@
 [
     {
-      "heading": "Letscode React Schedule",
+      "heading": "Letscode React Scheduler",
       "about": "Letscode is a webapp which allows you to keep track of all competitive programming contests across Hackerrank, Codeforces, TopCoder, CodeChef, HackerEarth etc.",
       "tech": ["Javascript", "React 16", "Redux", "NodeJs"],
       "git": "https://github.com/strcoder4007/letscode",
-      "live": "http://18.216.186.17/letscode/"
+      "live": "http://letscode.live/"
     },
     {
       "heading": "Memory Sequences",
