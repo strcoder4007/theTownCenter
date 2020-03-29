@@ -5,6 +5,10 @@
     padding:10px;
 }
 
+ul {
+  padding-inline-start: 25px;
+  padding-right: 5px;
+}
 .project {
     height: 250px;
     border: 2px solid white;
