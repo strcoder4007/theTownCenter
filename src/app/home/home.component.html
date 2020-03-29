@@ -121,7 +121,7 @@
   </div>
 
   <div class="clearfix"></div>
-  <div class="row gutter-0 justify-content-around" *ngIf="myProjects >= 9">
+  <div class="row gutter-0 justify-content-around" *ngIf="myProjects.length >= 9">
     <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
   </div>
 
