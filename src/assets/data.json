@@ -1,5 +1,29 @@
 [
     {
+      "company": "Frontend Engineer @ Doctorplan Health Inc.",
+      "location": "New Delhi",
+      "duration": "July 2019 - present",
+      "about": "Working as Frontend Engineer on internal project as well as client-facing web apps."
+    },
+    {
+      "company": "Full Stack Developer @ ALLPS Digital GmbH",
+      "location": "Hyderabad",
+      "duration": "June 2018 - June 2019",
+      "about": "I've been working in a Zurich based startup where my responsibility varies for several projects as full stack developer and as frontend developer on some using ReactJs + Redux + NodeJs and VueJS + Laravel."
+    },
+    {
+      "company": "Full Stack Intern @ Cartisan",
+      "location": "Bengaluru",
+      "duration": "April 2018 - June 2018",
+      "about": "Built a livestream using MEAN stack and Alicloud as the streaming server. Worked with various web video encoders and decoders written in C++ and running on Nodejs"
+    },
+    {
+      "company": "Intern @ Wallfruit Technologies",
+      "location": "Hyderabad",
+      "duration": "December 2016 - March 2017",
+      "about": "Built the frontend of a SaaS based platform for construction engineers to manage their blueprints, material, workers and progress using Angular and Leaflet.js. Wrote tests using Mocha, Chai and Puppeteer."
+    },
+    {
       "heading": "Letscode React Scheduler",
       "about": "Letscode is a webapp which allows you to keep track of all competitive programming contests across Hackerrank, Codeforces, TopCoder, CodeChef, HackerEarth etc.",
       "tech": ["Javascript", "React 16", "Redux", "NodeJs"],
