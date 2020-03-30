@@ -38,7 +38,6 @@ export class AppComponent implements OnInit {
     if (!localStorage.getItem('theme'))
       localStorage.setItem('theme', 'light');
     this.theme = localStorage.getItem('theme');
-    if (document.getElementsByTagName("BODY")[0])
-      document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
   }
 }
