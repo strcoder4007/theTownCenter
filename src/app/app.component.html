@@ -17,19 +17,19 @@
       <a class="smallFont staat float-right ml-3" href="mailto:mynameshubham@gmail.com" [ngClass]="[theme + '-theme']">Email</a>
       <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
       <a class="smallFont staat float-right ml-3 theme-button" href="assets/resume.pdf" target="_blank"
-         [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+         [ngStyle]="{'margin-top': '-6px','border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
          [ngClass]="[theme + '-theme']">
-        <div style="height: 5px; width: 100%"></div>
+        <div style="height: 4px; width: 100%"></div>
         <span style="padding-left: 7.5px; padding-right: 10px;">
             &nbsp;&nbsp;<i class="fa fa-download p-0" style="font-size: 15px;"></i>&nbsp;&nbsp;
             r&#233;sum&#233;
           </span>
       </a>
       <button class="smallFont staat float-right ml-3 theme-button"
-              [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+              [ngStyle]="{ 'margin-top': '-6px','border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
               [ngClass]="[theme + '-theme']" (click)="toggleTheme()">
-        <img src="../assets/yoda.png" width="25px" *ngIf="theme === 'dark'">
-        <img src="../assets/darthVader.png" width="25px" *ngIf="theme === 'light'">
+        <img src="../assets/yoda.png" style="margin-top: 2px" width="27.5px" *ngIf="theme === 'dark'">
+        <img src="../assets/darthVader.svg" style="margin-top: 1px" width="21px" *ngIf="theme === 'light'">
       </button>
     </div>
   </div>
@@ -37,17 +37,23 @@
   <div class="container-fluid pt-4 py-md-5">
     <div class="row elementToFadeIn my-3 mt-sm-4">
       <a href="#experience" class="col offset-md-1 staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">exp.</a>
-      <a href="#experience" class="col offset-md-1 staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">experience</a>
+      <a href="#experience" class="col offset-md-1 staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">
+        <span style="float: left;">experience</span>
+      </a>
 
-      <a href="#projects" class="col justify-content-around staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">proj.</a>
-      <a href="#projects" class="col justify-content-around staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">projects</a>
+      <a href="#projects" class="col staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">proj.</a>
+      <a href="#projects" class="col staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">
+        <span style="padding-left: 2vw">projects</span>
+      </a>
 
-      <a href="#programming"class="col justify-content-around staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">prog.</a>
-      <a href="#programming"class="col justify-content-around staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">programming</a>
+      <a href="#programming"class="col staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">prog.</a>
+      <a href="#programming"class="col staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">
+        <span style="padding-left: 2.5vw">programming</span>
+      </a>
 
-      <a href="assets/resume.pdf" target="_blank" class="col justify-content-around staat largeFont pl-2 pl-sm-3 pl-md-5" [ngClass]="[theme + '-theme']">r&#233;sum&#233;</a>
-
-      <a href="/memseq" target="_blank" class="col justify-content-start staat largeFont" [ngClass]="[theme + '-theme']">blog</a>
+      <a href="/memseq" target="_blank" class="col staat largeFont" [ngClass]="[theme + '-theme']">
+        <span style="padding-left: 5vw">blog</span>
+      </a>
     </div>
   </div>
 

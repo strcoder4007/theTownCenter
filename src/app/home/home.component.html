@@ -55,7 +55,9 @@
               <span *ngFor="let tech of project.tech">{{tech}}&nbsp;</span>
             </p>
 
-            <div class="row gutter-0 w-100 d-flex justify-content-around" [ngClass]="[theme + '-theme']">
+            <br>
+
+            <div class="row gutter-0 w-100 d-flex justify-content-around links" [ngClass]="[theme + '-theme']">
               <div class="col">
                 <a href="{{project.git}}" class="projectLink roboto smallFont"
                    [ngClass]="[theme + '-theme']" target="_blank">

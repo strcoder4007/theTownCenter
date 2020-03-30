@@ -31,10 +31,20 @@
     font-size: 18px;
     background: transparent;
     border-radius: 0px;
+    padding-top: 2px;
 }
 
 .disableEffect:hover {
     color:gray !important;
+}
+
+.card-body {
+  position: relative;
+}
+.card-body .links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
