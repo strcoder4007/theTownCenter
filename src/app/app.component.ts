@@ -22,7 +22,6 @@ export class AppComponent implements OnInit {
     if (localStorage.getItem('theme') === 'light') this.theme = 'dark';
     else this.theme = 'light';
     localStorage.setItem('theme', this.theme);
-    document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
   }
 
 
@@ -38,6 +37,5 @@ export class AppComponent implements OnInit {
     if (!localStorage.getItem('theme'))
       localStorage.setItem('theme', 'light');
     this.theme = localStorage.getItem('theme');
-    document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
   }
 }

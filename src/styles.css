@@ -11,6 +11,9 @@ a:hover {
 .text-crimson {
   color: crimson;
 }
+body {
+  background-color: whitesmoke;
+}
 .roboto {
   font-family: 'Circular Std Medium';
 }
