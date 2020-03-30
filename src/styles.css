@@ -12,7 +12,10 @@ a:hover {
   color: crimson;
 }
 .roboto {
-  font-family: 'Roboto';
+  font-family: 'Circular Std Medium';
+}
+.roboto-bold {
+  font-family: 'Circular Std Bold';
 }
 
 .staat {
@@ -24,7 +27,7 @@ a:hover {
 }
 
 .smallFont {
-  font-size: 1rem;
+  font-size: .95rem;
 }
 .mediumFont {
   font-size: 1rem;
