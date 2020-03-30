@@ -2,21 +2,23 @@
 <div class="col-12 col-sm-10 offset-0 offset-sm-1 p-0">
 
   <!-----------------INTRO -------------------->
-  <p class="roboto-bold mediumFont is-primary">
+  <p class="roboto-bold mediumFont" [ngClass]="[theme + '-theme']">
     I am a <span class="text-crimson">full stack web developer</span> <br>with <span class="text-crimson">1.5 years</span> of experience in <span class="text-crimson">JavaScript</span>,<br><span class="text-crimson">ReactJs</span>, <span class="text-crimson">VueJS</span>, Angular, <span class="text-crimson">NodeJs</span>, <span class="text-crimson">SQL</span>, <span class="text-crimson">GraphQL</span> <br>with background in <span class="text-crimson">Algorithms</span> and <span class="text-crimson">Data Structures</span> using <span class="text-crimson">C++</span>.
   </p>
 
   <!-------------------------WORK EXP ------------------------------>
   <div>
-    <p id="experience" class="mynavOptions largeFont staat is-primary pt-4 pb-3">work experience</p>
+    <p id="experience" class="mynavOptions largeFont staat pt-4 pb-3" [ngClass]="[theme + '-theme']">work experience</p>
     <div class="row gutter-0 d-flex justify-content-start">
-      <div class="col-sm-6 col-lg-4 mb-3 fill-height-or-more" *ngFor="let exp of workExp; let i = index">
-        <div class="col-12 col-sm-11 bg-dark card p-0">
-          <div class="card-body bg-black p-0">
-            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
-              <p class="smallFont roboto is-secondary m-0 p-2 align-self-center">{{ exp.company }}</p>
+      <div class="col-sm-6 col-lg-4 mb-3 p-0 fill-height-or-more" *ngFor="let exp of workExp; let i = index">
+        <div class="col-12 col-sm-11 card p-0">
+          <div class="card-body p-0" [ngClass]="[theme + '-theme']">
+            <div class="p-0 d-flex justify-content-around header" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
+              <p class="smallFont roboto m-0 p-2 align-self-center">
+                {{ exp.company }}
+              </p>
             </div>
-            <p class="card-text p-2 is-primary smallFont roboto">
+            <p class="card-text p-2 smallFont roboto" [ngClass]="[theme + '-theme']">
               <i class="fa fa-map-marker"></i>
               &nbsp;{{ exp.location }}<br>
               {{ exp.duration }}&nbsp;
@@ -31,71 +33,43 @@
 
 
   <!-------------------------Personal Projects ------------------------------>
-  <p id="projects" class="mynavOptions largeFont staat is-primary pt-5 pb-3">personal projects</p>
+  <p id="projects" class="mynavOptions largeFont staat pt-5 pb-3" [ngClass]="[theme + '-theme']">personal projects</p>
 
   <!--------------------------------1st section-------------------------------- -->
   <div class="row gutter-0 d-flex justify-content-start">
-      <div class="col-sm-6 col-lg-4 mb-4 fill-height-or-more" *ngFor="let project of myProjects1; let i = index">
-        <div class="col-12 col-sm-11 bg-dark card p-0">
-          <div class="card-body bg-black p-0">
-            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
-              <p class="smallFont is-secondary roboto m-0 p-2 align-self-center">{{project.heading}}</p>
+      <div class="col-sm-6 col-lg-4 mb-4 fill-height-or-more" *ngFor="let project of myProjects; let i = index">
+        <div class="col-12 col-sm-11 card p-0">
+          <div class="card-body p-0" [ngClass]="[theme + '-theme']">
+            <div class="header d-flex justify-content-around" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
+              <p class="smallFont roboto m-0 p-2 align-self-center">
+                {{project.heading}}
+              </p>
             </div>
-            <p class="card-text p-2 is-primary roboto smallFont">
+            <p class="card-text p-2 roboto smallFont" [ngClass]="[theme + '-theme']">
               {{project.about}}
             </p>
-            <p class="card-text px-2 py-0 m-0 is-primary smallFont roboto">
+            <p class="card-text px-2 py-0 m-0 smallFont roboto" [ngClass]="[theme + '-theme']">
               Technologies Used:
             </p>
-            <p class="card-text p-2 is-primary roboto smallFont">
+            <p class="card-text p-2 roboto smallFont" [ngClass]="[theme + '-theme']">
               <span *ngFor="let tech of project.tech">{{tech}}&nbsp;</span>
             </p>
 
-            <div class="row gutter-0 w-100 bg-black d-flex justify-content-around is-primary">
+            <div class="row gutter-0 w-100 d-flex justify-content-around" [ngClass]="[theme + '-theme']">
               <div class="col">
-                <a href="{{project.git}}" class="projectLink is-primary roboto smallFont" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
+                <a href="{{project.git}}" class="projectLink roboto smallFont"
+                   [ngClass]="[theme + '-theme']" target="_blank">
+                  <i class="fa fa-github"></i>&nbsp;View on Github
+                </a>
               </div>
               <div *ngIf="project.live.length != 4; else strikeBlock"class="col">
-                <a href="{{project.live}}" class="projectLink is-primary roboto smallFont" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
+                <a href="{{project.live}}" class="projectLink roboto smallFont" target="_blank"
+                   [ngClass]="[theme + '-theme']">
+                  <i class="fa fa-desktop"></i>&nbsp;View Live
+                </a>
               </div>
               <ng-template #strikeBlock>
-                <div class="col projectLink disableEffect is-primary roboto smallFont">
-                  <i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
-                </div>
-              </ng-template>
-            </div>
-
-          </div>
-        </div>
-      </div>
-  </div>
-  <!--------------------------------2nd -------------------------------- -->
-  <div *ngIf="loadFirst" class="row gutter-0 d-flex justify-content-around elementToFadeIn">
-      <div class="col-sm-4 mb-4 fill-height-or-more" *ngFor="let project of myProjects2; let i = index">
-        <div class="col-12 col-sm-11 bg-dark card p-0">
-          <div class="card-body bg-black p-0">
-            <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
-              <p class="smallFont is-secondary Roboto m-0 p-2 align-self-center">{{project.heading}}</p>
-            </div>
-            <p class="card-text p-2 is-primary">
-              {{project.about}}
-            </p>
-            <p class="card-text px-2 py-0 m-0 is-primary smallFont Roboto">
-              Technologies Used:
-            </p>
-            <p class="card-text p-2 is-primary">
-              <span *ngFor="let tech of project.tech">{{tech}}&nbsp;</span>
-            </p>
-
-            <div class="row gutter-0 w-100 bg-black d-flex justify-content-around is-primary">
-              <div class="col">
-                <a href="{{project.git}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-github"></i>&nbsp;View on Github</a>
-              </div>
-              <div *ngIf="project.live.length != 4; else strikeBlock"class="col">
-                <a href="{{project.live}}" class="projectLink is-primary Roboto smallFont" target="_blank"><i class="fa fa-desktop"></i>&nbsp;View Live</a>
-              </div>
-              <ng-template #strikeBlock>
-                <div class="col projectLink disableEffect is-primary Roboto smallFont">
+                <div class="col projectLink disableEffect roboto smallFont" [ngClass]="[theme + '-theme']">
                   <i class="fa fa-desktop"></i>&nbsp;<s>View Live</s>
                 </div>
               </ng-template>
@@ -108,41 +82,46 @@
 
   <div class="clearfix"></div>
   <div class="row gutter-0 justify-content-around">
-    <button class="btn myBtn" (click)="loadMore()">{{buttonText}}</button>
+    <button class="btn myBtn"
+            [ngClass]="[theme + '-theme']"
+            [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+            (click)="loadMore()">
+      {{ buttonText }}
+    </button>
   </div>
 
   <!-------------------------------Programming--------------------------------- -->
 
-  <p id="programming" class="mynavOptions largeFont staat is-primary pt-5 pb-3">algorithmic programming</p>
+  <p id="programming" class="mynavOptions largeFont staat pt-5 pb-3" [ngClass]="[theme + '-theme']">algorithmic programming</p>
   <div class="row gutter-0">
-    <div class="col-sm-7 smallFont is-primary Roboto">
+    <div class="col-sm-7 smallFont roboto" [ngClass]="[theme + '-theme']">
       I participate in <span class="text-crimson">contests</span> based on <span class="text-crimson">algorithms</span>, <br><span class="text-crimson">data structures</span> and <span class="text-crimson">mathematics</span> using <span class="text-crimson">C++</span> as my primary language. <br>All my stats can be found in my profiles on various competitive programming websites.
     </div>
   </div>
 
   <div class="my-5 m-0 p-0">
-    <a href="assets/acm2017.pdf" class="projectLink is-primary Roboto smallFont underline" target="_blank">
+    <a href="assets/acm2017.pdf" class="projectLink roboto smallFont underline" target="_blank" [ngClass]="[theme + '-theme']">
       <i class="fa fa-trophy"></i>&nbsp;Qualified <span class="text-crimson"><b>ACM-ICPC INDIA</b></span> regionals 2016.
     </a>
   </div>
 
   <div class="my-5 m-0 p-0">
-    <div class="col-md-12 col-lg-8 col-xl-6 bg-dark card p-0">
-      <div class="card-body bg-black p-0">
-        <div class="row gutter-0 w-100 bg-light d-flex justify-content-around">
-          <p class="smallFont is-secondary Roboto m-0 p-2">Contest Profiles:</p>
+    <div class="col-md-12 col-lg-8 col-xl-6  card p-0">
+      <div class="card-body p-0" [ngClass]="[theme + '-theme']">
+        <div class="header d-flex justify-content-around" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
+          <p class="smallFont roboto m-0 p-2">Contest Profiles:</p>
         </div>
-        <p class="card-text p-2 is-primary">
-          <a href="http://codeforces.com/profile/fie" class="underline projectLink is-primary" target="_blank">&nbsp;Codeforces</a><br>
+        <p class="card-text p-2" [ngClass]="[theme + '-theme']">
+          <a href="http://codeforces.com/profile/fie" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Codeforces</a><br>
           [Code to 800+ problems solved on Codeforces:
-          <a href="https://github.com/strcoder4007/codeforces" class="projectLink ml-1 underline is-primary" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
-          <a href="http://www.spoj.com/users/strcoder4007/" class="underline projectLink is-primary" target="_blank">&nbsp;SPOJ</a><br>
+          <a href="https://github.com/strcoder4007/codeforces" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
+          <a href="http://www.spoj.com/users/strcoder4007/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;SPOJ</a><br>
           [Code to 180+ problems solved on SPOJ:
-          <a href="https://github.com/strcoder4007/spoj" class="projectLink ml-1 underline is-primary" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
-          <a href="https://www.hackerrank.com/FrozenOnion" class="underline projectLink is-primary" target="_blank">&nbsp;Hackerrank</a>,
-          <a href="https://csacademy.com/user/strcoder/" class="underline projectLink is-primary" target="_blank">&nbsp;CSAcademy</a>,
-          <a href="https://atcoder.jp/user/STR" class="underline projectLink is-primary" target="_blank">&nbsp;AtCoder</a>,
-          <a href="http://acm.timus.ru/author.aspx?id=199801" class="underline projectLink is-primary" target="_blank">&nbsp;Timus Online Judge</a>
+          <a href="https://github.com/strcoder4007/spoj" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
+          <a href="https://www.hackerrank.com/FrozenOnion" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Hackerrank</a>,
+          <a href="https://csacademy.com/user/strcoder/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;CSAcademy</a>,
+          <a href="https://atcoder.jp/user/STR" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;AtCoder</a>,
+          <a href="http://acm.timus.ru/author.aspx?id=199801" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Timus Online Judge</a>
         </p>
       </div>
     </div>

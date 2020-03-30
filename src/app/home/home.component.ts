@@ -1,6 +1,6 @@
 
 import {map} from 'rxjs/operators';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Http } from '@angular/http';
 
 
@@ -10,12 +10,11 @@ import { Http } from '@angular/http';
     styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+    @Input('theme') theme: string;
     workExp = [];
     months = ["January","February","March","April","May","June","July", "August","September","October","November","December"];
     myProjects = [];
-    myProjects1 = [];
-    myProjects2 = [];
-    loadFirst = false;
+    visibleProjects = 8;
     buttonText = 'Load More';
 
     constructor(public http: Http) { }
@@ -54,34 +53,28 @@ export class HomeComponent implements OnInit {
     }
 
     loadMore() {
-        if (this.buttonText == 'Show Less') {
-            this.loadFirst = false;
-            this.buttonText = 'Load More';
+        if (this.buttonText === 'Load More') {
+            this.visibleProjects = 50;
+            this.buttonText = 'Show Less';
         } else {
-          this.loadFirst = true;
-          this.buttonText = 'Show Less';
+          this.visibleProjects = 8;
+          this.buttonText = 'Load More';
         }
-    }
+        this.processJson();
+      }
 
     getposts() {
         return this.http.get('assets/data.json').pipe(map(res => res.json()));
     }
 
     processJson() {
+        this.workExp = [];
+        this.myProjects = [];
         this.getposts().subscribe((allWork) => {
             allWork.forEach(exp => {
                 if (exp.hasOwnProperty('company')) this.workExp.push(exp);
-                else this.myProjects.push(exp);
+                else if (this.myProjects.length <= this.visibleProjects) this.myProjects.push(exp);
             });
-            for (let i  = 0; i < this.myProjects.length; i++) {
-                for (let j = 0; j < this.myProjects[i].tech.length - 1; j++) {
-                    this.myProjects[i].tech[j] = this.myProjects[i].tech[j] + ',';
-                }
-                if (i < 9)
-                    this.myProjects1.push(this.myProjects[i]);
-                else
-                    this.myProjects2.push(this.myProjects[i]);
-            }
         });
     }
 

@@ -35,13 +35,16 @@ a:hover {
 .largeFont {
   font-size: 1.5rem;
 }
-.is-primary {
-  color: whitesmoke;
+button {
+  outline: none;
 }
-.is-secondary {
+
+.light-theme, .light-theme:hover {
   color: #000000;
+  background-color: whitesmoke;
 }
-.bg-black {
+.dark-theme, .dark-theme:hover {
+  color: whitesmoke;
   background-color: #000000;
 }
 
@@ -53,14 +56,23 @@ a:hover {
   position: fixed;
   bottom: 5px;
   right: 5px;
-  border: 2px solid whitesmoke;
 }
 
 .card {
   border-radius: 0px;
+  border: 1px solid #000;
 }
 .card-body {
   border: 2px solid whitesmoke;
+}
+
+.fa {
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+.header {
+  margin: -2px 0 0 -2px;
+  width: calc(100% + 4px);
 }
 
 
@@ -80,10 +92,6 @@ a:hover {
 
 ::-webkit-scrollbar {
     width: 6px;
-}
-
-body {
-    background-color: #000;
 }
 
 html {

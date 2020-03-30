@@ -1,23 +1,12 @@
-.fa {
-    font-size: 25px;
-    padding: 10px;
-    color: white;
-    transition: color 0.2s ease;
-}
-.fa-github:hover {
-    color: #222;
-}
-.fa-linkedin:hover {
-    color: #0077b5;
-}
-.fa-envelope-o:hover {
-    color: crimson;
-}
-
 .mynavOptions {
     cursor: pointer;
     transition: color 0.2s ease;
 }
 .mynavOptions:hover {
     color: crimson;
+}
+.theme-button {
+  cursor: pointer;
+  margin-top: -5px;
+  outline: none;
 }

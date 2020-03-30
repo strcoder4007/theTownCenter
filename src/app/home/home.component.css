@@ -1,5 +1,5 @@
 .prog {
-    border: 2px solid white;
+    border: 2px solid #000000;
 }
 .progPara {
     padding:10px;
@@ -7,7 +7,7 @@
 
 .project {
     height: 250px;
-    border: 2px solid white;
+    border: 2px solid #000000;
     margin: 10px;
     padding: 0px !important;
 }
@@ -21,22 +21,16 @@
 .projectTech {
     font-family: 'Circular Std Book';
     font-size: 20px;
-    color: whitesmoke;
+    color: #000000;
 }
 .myBtn {
     margin: 40px;
     width: 200px;
     height: 40px;
-    color: #fff;
     font-family: 'Circular Std Book';
     font-size: 18px;
-    border: 2px solid #fff;
     background: transparent;
     border-radius: 0px;
-}
-.myBtn:hover {
-    background-color: white;
-    color: black;
 }
 
 .disableEffect:hover {

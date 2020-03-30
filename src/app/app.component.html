@@ -1,43 +1,62 @@
 <div class="container-fluid d-sm-none mt-3">
   <div class="row gutter-0 elementToFadeIn justify-content-around">
-    <p class="is-primary staat largeFont m-0">Shubham Singh</p>
+    <p class="staat largeFont m-0" [ngClass]="[theme + '-theme']">Shubham Singh</p>
   </div>
 </div>
 
 <div class="container-fluid elementToFadeIn">
     <div class="row mt-3 mr-2 justify-content-around">
-      <a class="col offset-md-1 smallFont is-primary staat float-left d-none d-sm-block" href="/"></a>
-      <a class="smallFont is-primary staat float-right ml-3" target="_blank" href="https://github.com/strcoder4007">Github</a>
-      <span class="mediumFont staat is-primary float-right ml-3" style="margin-top: -2px">|</span>
-      <a class="smallFont is-primary staat float-right ml-3" target="_blank" href="https://www.linkedin.com/in/shubham-singh-15b76951">Linkedin</a>
-      <span class="mediumFont staat is-primary float-right ml-3" style="margin-top: -2px">|</span>
-      <a class="smallFont is-primary staat float-right ml-3" target="_blank" href="https://angel.co/shubham-singh-128">Angel</a>
-      <span class="mediumFont staat is-primary float-right ml-3" style="margin-top: -2px">|</span>
-      <a class="smallFont is-primary staat float-right ml-3" href="mailto:mynameshubham@gmail.com">Email</a>
+      <a class="col offset-md-1 smallFont staat float-left d-none d-sm-block" href="/" [ngClass]="[theme + '-theme']"></a>
+      <a class="smallFont staat float-right ml-3" target="_blank" href="https://github.com/strcoder4007" [ngClass]="[theme + '-theme']">Github</a>
+      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat float-right ml-3" target="_blank" href="https://www.linkedin.com/in/shubham-singh-15b76951" [ngClass]="[theme + '-theme']">Linkedin</a>
+      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat float-right ml-3" target="_blank" href="https://angel.co/shubham-singh-128" [ngClass]="[theme + '-theme']">Angel</a>
+      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat float-right ml-3" href="mailto:mynameshubham@gmail.com" [ngClass]="[theme + '-theme']">Email</a>
+      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat float-right ml-3 theme-button" href="assets/resume.pdf" target="_blank"
+              [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+              [ngClass]="[theme + '-theme']">
+        <div style="height: 5px; width: 100%"></div>
+          <span style="padding-left: 7.5px; padding-right: 10px;">
+            &nbsp;&nbsp;<i class="fa fa-download p-0" style="font-size: 15px;"></i>&nbsp;&nbsp;
+            r&#233;sum&#233;
+          </span>
+      </a>
+      <button class="smallFont staat float-right ml-3 theme-button"
+              [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+              [ngClass]="[theme + '-theme']" (click)="toggleTheme()">
+        <img src="../assets/yoda.png" width="25px" *ngIf="theme === 'dark'">
+        <img src="../assets/darthVader.png" width="25px" *ngIf="theme === 'light'">
+      </button>
     </div>
 </div>
 
 <div class="container-fluid pt-4 py-md-5">
   <div class="row elementToFadeIn my-3 mt-sm-4">
-    <a href="#experience" class="col offset-md-1 is-primary staat largeFont d-block d-sm-none">exp.</a>
-    <a href="#experience" class="col offset-md-1 is-primary staat largeFont d-none d-sm-block">experience</a>
+    <a href="#experience" class="col offset-md-1 staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">exp.</a>
+    <a href="#experience" class="col offset-md-1 staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">experience</a>
 
-    <a href="#projects" class="col justify-content-around is-primary staat largeFont d-block d-sm-none">proj.</a>
-    <a href="#projects" class="col justify-content-around is-primary staat largeFont d-none d-sm-block">projects</a>
+    <a href="#projects" class="col justify-content-around staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">proj.</a>
+    <a href="#projects" class="col justify-content-around staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">projects</a>
 
-    <a href="#programming"class="col justify-content-around is-primary staat largeFont d-block d-sm-none">prog.</a>
-    <a href="#programming"class="col justify-content-around is-primary staat largeFont d-none d-sm-block">programming</a>
+    <a href="#programming"class="col justify-content-around staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">prog.</a>
+    <a href="#programming"class="col justify-content-around staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">programming</a>
 
-    <a href="assets/resume.pdf" target="_blank" class="col justify-content-around is-primary staat largeFont pl-2 pl-sm-3 pl-md-5">r&#233;sum&#233;</a>
+    <a href="assets/resume.pdf" target="_blank" class="col justify-content-around staat largeFont pl-2 pl-sm-3 pl-md-5" [ngClass]="[theme + '-theme']">r&#233;sum&#233;</a>
 
-    <a href="/memseq" target="_blank" class="col justify-content-start is-primary staat largeFont">blog</a>
+    <a href="/memseq" target="_blank" class="col justify-content-start staat largeFont" [ngClass]="[theme + '-theme']">blog</a>
   </div>
 </div>
 
 <div class="container-fluid elementToFadeIn my-1 w-100">
-    <router-outlet></router-outlet>
+  <app-home [theme]="theme"></app-home>
 </div>
 
-<button id="backUpButton" class="backUpButton bg-black" (click)="topFunction()">
+<button id="backUpButton" class="backUpButton"
+        [ngClass]="[theme + '-theme']"
+        [ngStyle]="{'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+        (click)="topFunction()">
   <i class="fa fa-long-arrow-up p-0" style="margin: auto auto; position: relative;" aria-hidden="true"></i>
 </button>

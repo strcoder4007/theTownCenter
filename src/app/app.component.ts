@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  theme = 'light';
 
   constructor(private router: Router) {
     this.router = router;
@@ -18,6 +18,14 @@ export class AppComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
+  toggleTheme() {
+    if (localStorage.getItem('theme') === 'light') this.theme = 'dark';
+    else this.theme = 'light';
+    localStorage.setItem('theme', this.theme);
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
+  }
+
+
   @HostListener('window:scroll', ['$event']) onScrollEvent($event) {
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
       document.getElementById('backUpButton').style.display = 'block';
@@ -27,6 +35,10 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    if (!localStorage.getItem('theme'))
+      localStorage.setItem('theme', 'light');
+    this.theme = localStorage.getItem('theme');
+    if (document.getElementsByTagName("BODY")[0])
+      document.getElementsByTagName("BODY")[0].style.backgroundColor = this.theme === 'light' ? 'whitesmoke' : '#000000';
   }
 }
