@@ -1,5 +1,5 @@
 
-<div class="col-12 col-sm-10 offset-0 offset-sm-1 p-0">
+<div class="col p-0">
 
   <!-----------------INTRO -------------------->
   <p class="roboto-bold mediumFont" [ngClass]="[theme + '-theme']">
@@ -10,7 +10,7 @@
   <div>
     <p id="experience" class="mynavOptions largeFont staat pt-4 pb-3" [ngClass]="[theme + '-theme']">work experience</p>
     <div class="row gutter-0 d-flex justify-content-start">
-      <div class="col-sm-6 col-lg-4 mb-3 p-0 fill-height-or-more" *ngFor="let exp of workExp; let i = index">
+      <div class="col-sm-6 col-lg-4 col-md-5 mb-3 p-0 fill-height-or-more" *ngFor="let exp of workExp; let i = index">
         <div class="col-12 col-sm-11 card p-0">
           <div class="card-body p-0" [ngClass]="[theme + '-theme']">
             <div class="p-0 d-flex justify-content-around header" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
@@ -95,39 +95,50 @@
   <!-------------------------------Programming--------------------------------- -->
 
   <p id="programming" class="mynavOptions largeFont staat pt-5 pb-3" [ngClass]="[theme + '-theme']">algorithmic programming</p>
-  <div class="row gutter-0">
-    <div class="col-sm-7 smallFont roboto" [ngClass]="[theme + '-theme']">
+  <div class="row gutter-0 d-flex">
+    <div class="smallFont roboto" [ngClass]="[theme + '-theme']">
       I participate in <span class="text-crimson">contests</span> based on <span class="text-crimson">algorithms</span>, <br><span class="text-crimson">data structures</span> and <span class="text-crimson">mathematics</span> using <span class="text-crimson">C++</span> as my primary language. <br>All my stats can be found in my profiles on various competitive programming websites.
+      <div class="my-4 m-0 p-0">
+        <a href="assets/acm2017.pdf" class="projectLink roboto smallFont underline" target="_blank" [ngClass]="[theme + '-theme']">
+          <i class="fa fa-trophy"></i>&nbsp;Qualified <span class="text-crimson"><b>ACM-ICPC INDIA</b></span> regionals 2016.
+        </a>
+      </div>
     </div>
-  </div>
-
-  <div class="my-5 m-0 p-0">
-    <a href="assets/acm2017.pdf" class="projectLink roboto smallFont underline" target="_blank" [ngClass]="[theme + '-theme']">
-      <i class="fa fa-trophy"></i>&nbsp;Qualified <span class="text-crimson"><b>ACM-ICPC INDIA</b></span> regionals 2016.
-    </a>
-  </div>
-
-  <div class="my-5 m-0 p-0">
-    <div class="col-md-12 col-lg-8 col-xl-6  card p-0">
-      <div class="card-body p-0" [ngClass]="[theme + '-theme']">
-        <div class="header d-flex justify-content-around" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
-          <p class="smallFont roboto m-0 p-2">Contest Profiles:</p>
+    <div class="mt-1">
+      <div class="card p-0">
+        <div class="card-body p-0" [ngClass]="[theme + '-theme']">
+          <div class="header d-flex justify-content-around" [ngClass]="[theme === 'light' ? 'dark-theme' : 'light-theme']">
+            <p class="smallFont roboto m-0 p-2">Contest Profiles:</p>
+          </div>
+          <div class="row">
+            <div class="col card-text p-2 ml-3" [ngClass]="[theme + '-theme']">
+              <a href="http://codeforces.com/profile/fie" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Codeforces</a><br>
+              [Code to 800+ problems solved on Codeforces:
+              <a href="https://github.com/strcoder4007/codeforces" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
+              <a href="http://www.spoj.com/users/strcoder4007/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;SPOJ</a><br>
+              [Code to 180+ problems solved on SPOJ:
+              <a href="https://github.com/strcoder4007/spoj" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
+            </div>
+            <div class="col card-text p-2" style="display: flex; justify-content: center">
+              <div>
+                <a href="https://www.hackerrank.com/FrozenOnion" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Hackerrank</a>
+                <br><div style="height:7.5px"></div>
+                <a href="https://csacademy.com/user/strcoder/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;CSAcademy</a>
+                <br><div style="height:7.5px"></div>
+                <a href="https://atcoder.jp/user/STR" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;AtCoder</a>
+                <br><div style="height:7.5px"></div>
+                <a href="http://acm.timus.ru/author.aspx?id=199801" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Timus Online Judge</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p class="card-text p-2" [ngClass]="[theme + '-theme']">
-          <a href="http://codeforces.com/profile/fie" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Codeforces</a><br>
-          [Code to 800+ problems solved on Codeforces:
-          <a href="https://github.com/strcoder4007/codeforces" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
-          <a href="http://www.spoj.com/users/strcoder4007/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;SPOJ</a><br>
-          [Code to 180+ problems solved on SPOJ:
-          <a href="https://github.com/strcoder4007/spoj" class="projectLink ml-1 underline" [ngClass]="[theme + '-theme']" target="_blank"><i class="fa fa-github"></i> &nbsp;Github</a> ]<br><br>
-          <a href="https://www.hackerrank.com/FrozenOnion" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Hackerrank</a>,
-          <a href="https://csacademy.com/user/strcoder/" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;CSAcademy</a>,
-          <a href="https://atcoder.jp/user/STR" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;AtCoder</a>,
-          <a href="http://acm.timus.ru/author.aspx?id=199801" class="underline projectLink" [ngClass]="[theme + '-theme']" target="_blank">&nbsp;Timus Online Judge</a>
-        </p>
       </div>
     </div>
   </div>
+
+
+
+
   <br>
 </div>
 

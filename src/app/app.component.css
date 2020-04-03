@@ -5,8 +5,4 @@
 .mynavOptions:hover {
     color: crimson;
 }
-.theme-button {
-  cursor: pointer;
-  margin-top: -5px;
-  outline: none;
-}
+

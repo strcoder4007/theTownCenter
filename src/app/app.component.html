@@ -1,23 +1,15 @@
 <div class="container-fluid" [ngClass]="[theme + '-theme']">
-  <div class="container-fluid d-sm-none pt-3">
-    <div class="row gutter-0 elementToFadeIn justify-content-around">
-      <p class="staat largeFont m-0" [ngClass]="[theme + '-theme']">Shubham Singh</p>
-    </div>
-  </div>
-
-  <div class="container-fluid elementToFadeIn">
-    <div class="row pt-3 mr-2 justify-content-around">
-      <a class="col offset-md-1 smallFont staat float-left d-none d-sm-block" href="/" [ngClass]="[theme + '-theme']"></a>
-      <a class="smallFont staat float-right ml-3" target="_blank" href="https://github.com/strcoder4007" [ngClass]="[theme + '-theme']">Github</a>
-      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
-      <a class="smallFont staat float-right ml-3" target="_blank" href="https://www.linkedin.com/in/shubham-singh-15b76951" [ngClass]="[theme + '-theme']">Linkedin</a>
-      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
-      <a class="smallFont staat float-right ml-3" target="_blank" href="https://angel.co/shubham-singh-128" [ngClass]="[theme + '-theme']">Angel</a>
-      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
-      <a class="smallFont staat float-right ml-3" href="mailto:mynameshubham@gmail.com" [ngClass]="[theme + '-theme']">Email</a>
-      <span class="mediumFont staat float-right ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+  <div class="container pt-3">
+    <div class="row w-100 pt-2 gutter-0 elementToFadeIn" style="position: relative">
+      <p class="staat m-0" style="font-size: 1.5rem" [ngClass]="[theme + '-theme']" (click)="router.navigate('/')">Shubham Singh</p>
+      <button class="smallFont staat float-right theme-icon"
+              [ngStyle]="{ 'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+              [ngClass]="[theme + '-theme']" (click)="toggleTheme()">
+        <img src="../assets/yoda.png" style="margin-top: 2px" width="27.5px" *ngIf="theme === 'dark'">
+        <img src="../assets/darthVader.svg" style="margin-top: 1px" width="21px" *ngIf="theme === 'light'">
+      </button>
       <a class="smallFont staat float-right ml-3 theme-button" href="assets/resume.pdf" target="_blank"
-         [ngStyle]="{'margin-top': '-6px','border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
+         [ngStyle]="{ 'border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
          [ngClass]="[theme + '-theme']">
         <div style="height: 4px; width: 100%"></div>
         <span style="padding-left: 7.5px; padding-right: 10px;">
@@ -25,19 +17,25 @@
             r&#233;sum&#233;
           </span>
       </a>
-      <button class="smallFont staat float-right ml-3 theme-button"
-              [ngStyle]="{ 'margin-top': '-6px','border' : '2px solid ' + (theme === 'light' ? '#000000' : 'whitesmoke')}"
-              [ngClass]="[theme + '-theme']" (click)="toggleTheme()">
-        <img src="../assets/yoda.png" style="margin-top: 2px" width="27.5px" *ngIf="theme === 'dark'">
-        <img src="../assets/darthVader.svg" style="margin-top: 1px" width="21px" *ngIf="theme === 'light'">
-      </button>
     </div>
   </div>
 
-  <div class="container-fluid pt-4 py-md-5">
+  <div class="container pt-2 elementToFadeIn">
+    <div class="pt-0 mr-4 pr-1 justify-content-around" style="float: left">
+      <a class="smallFont staat " target="_blank" href="https://github.com/strcoder4007" [ngClass]="[theme + '-theme']">Github</a>
+      <span class="mediumFont staat ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat ml-3" target="_blank" href="https://www.linkedin.com/in/shubham-singh-15b76951" [ngClass]="[theme + '-theme']">Linkedin</a>
+      <span class="mediumFont staat ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat ml-3" target="_blank" href="https://angel.co/shubham-singh-128" [ngClass]="[theme + '-theme']">Angel</a>
+      <span class="mediumFontstaat ml-3" style="margin-top: -2px" [ngClass]="[theme + '-theme']">|</span>
+      <a class="smallFont staat ml-3" href="mailto:mynameshubham@gmail.com" [ngClass]="[theme + '-theme']">Email</a>
+    </div>
+  </div>
+
+  <div class="container pt-4 py-md-5">
     <div class="row elementToFadeIn my-3 mt-sm-4">
-      <a href="#experience" class="col offset-md-1 staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">exp.</a>
-      <a href="#experience" class="col offset-md-1 staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">
+      <a href="#experience" class="col staat largeFont d-block d-sm-none" [ngClass]="[theme + '-theme']">exp.</a>
+      <a href="#experience" class="col staat largeFont d-none d-sm-block" [ngClass]="[theme + '-theme']">
         <span style="float: left;">experience</span>
       </a>
 
@@ -57,7 +55,7 @@
     </div>
   </div>
 
-  <div class="container-fluid elementToFadeIn my-1 w-100">
+  <div class="container elementToFadeIn my-1 w-100">
     <app-home [theme]="theme"></app-home>
   </div>
 
