@@ -1,0 +1,159 @@
+[
+    {
+      "company": "Frontend Engineer @ Doctorplan",
+      "location": "New Delhi",
+      "duration": "July 2019 - present",
+      "about": "Working as Frontend Engineer on internal project as well as client-facing web apps."
+    },
+    {
+      "company": "Full Stack Developer @ ALLPS GmbH",
+      "location": "Hyderabad",
+      "duration": "June 2018 - June 2019",
+      "about": "I've been working in a Zurich based startup where my responsibility varies for several projects as full stack developer and as frontend developer on some using ReactJs + Redux + NodeJs and VueJS + Laravel."
+    },
+    {
+      "company": "Full Stack Intern @ Cartisan",
+      "location": "Bengaluru",
+      "duration": "April 2018 - June 2018",
+      "about": "Built a livestream using MEAN stack and Alicloud as the streaming server. Worked with various web video encoders and decoders written in C++ and running on Nodejs"
+    },
+    {
+      "company": "Intern @ Wallfruit Technologies",
+      "location": "Hyderabad",
+      "duration": "December 2016 - March 2017",
+      "about": "Built the frontend of a SaaS based platform for construction engineers to manage their blueprints, material, workers and progress using Angular and Leaflet.js. Wrote tests using Mocha, Chai and Puppeteer."
+    },
+    {
+      "heading": "Letscode React Scheduler",
+      "about": "Letscode is a webapp which allows you to keep track of all competitive programming contests across Hackerrank, Codeforces, TopCoder, CodeChef, HackerEarth etc.",
+      "tech": ["Javascript", "React 16", "Redux", "NodeJs"],
+      "git": "https://github.com/strcoder4007/letscode",
+      "live": "http://shubhamswe.xyz/letscode"
+    },
+    {
+      "heading": "Memory Sequences",
+      "about": "A web app for blogging with everything written from scratch. Made this to teach myself Angular 4 + Typescript.",
+      "tech": ["Angular 7", "Typescript", "Angular-cli", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/memorySequence",
+      "live": "http://shubhamswe.xyz/memseq/"
+    },
+    {
+      "heading": "Time My Show",
+      "about": "A progressive web app to search and subscribe to tv shows for new episodes of all subscribed shows sorted.",
+      "tech": ["Angular 7", "Typescript 3", "Angular-cli", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/timeMyShow",
+      "live": "http://shubhamswe.xyz/tms/"
+    },
+    {
+      "heading": "Ionic Messenger (iOS/Android)",
+      "about": "A chat app made for android and iOS for demonstrating obscure features such as going private with another user, giving a specific time to a message etc.",
+      "tech": ["Ionic 3", "Angular 5", "Firebase", "NodeJs"],
+      "git": "https://github.com/strcoder4007/ionic_messenger",
+      "live": "null"
+    },
+    {
+    "heading": "Whatsapp Daemon (team of 2)",
+    "about": "A web app tool for bypassing whatsapp restrictions and getting automatic notifications when user comes online, changes status, changes profile pic or their last hour activity.",
+    "tech": ["Javascript", "Angular 5", "Typescript", "NodeJs"],
+    "git": "https://github.com/aditya6677/WA-Stocking",
+    "live": "http://shubhamswe.xyz/stalker/"
+    },
+    {
+      "heading": "Chart App #2 (IPL Stats)",
+      "about": "A web app for demonstration of certain chart.js elements while comparing the real life data of IPL matches from 2008 till 2016.",
+      "tech": ["Javascript", "Vue 2", "Bootstrap 4", "NodeJs"],
+      "git": "https://github.com/strcoder4007/scipl",
+      "live": "http://shubhamswe.xyz/scipl/"
+    },
+    {
+        "heading": "One Hot True",
+        "about": "A neural net trained on mnist dataset to recognize digits from 28x28 images using Tensorflow without using convolutional model (accuracy ~ 95%) .",
+        "tech": ["Python", "TensorFlow", "Mnist Dataset"],
+        "git": "https://github.com/strcoder4007/one_hot_true",
+        "live": "null"
+    },
+    {
+        "heading": "Code Scrapper",
+        "about": "A desktop app for Linux, Windows and Mac to download code from competitive programming websites.",
+        "tech": ["Javascript", "Electron Framework", "Materialize CSS", "NodeJs"],
+        "git": "https://github.com/strcoder4007/codescrapper",
+        "live": "null"
+    },
+    {
+      "heading": "Instacode Online Judge",
+      "about": "An online compiler and judge where algorithmic problems are to be solved under contrained memory and time limit.",
+      "tech": ["PHP", "Python", "Bootstrap", "jQuery"],
+      "git": "null",
+      "live": "http://instacode.xyz"
+    },
+    {
+        "heading": "Creek",
+        "about": "A simple web app to keep track of new albums from bands you love. No manually adding bands, just use last.fm credentials and know when a new album drops with all it's info.",
+        "tech": ["Angular 5", "Typescript", "Last.fm api", "NodeJs", "Bootstrap"],
+        "git": "https://github.com/strcoder4007/creek",
+        "live": "http://shubhamswe.xyz/creek/"
+    },
+    {
+        "heading": "SAE KIET",
+        "about": "Official website for a college club SAE KIET (mech. engineering) re-written in AngularJs.",
+        "tech": ["AngularJs", "Javascript", "Bootstrap", "NodeJs"],
+        "git": "https://github.com/strcoder4007/sae_nodejs",
+        "live": "http://shubhamswe.xyz/saekiet/"
+    },
+    {
+        "heading": "Code Hour",
+        "about": "Code Hour is an open-source webapp which allows you to keep track of competitive programming contests across all websites.",
+        "tech": ["AngularJs", "Javascript", "jQuery", "Bootstrap", "Bower"],        
+        "git": "https://github.com/strcoder4007/Code_Hour",
+        "live": "http://shubhamswe.xyz/codehour/"
+    },
+    {
+        "heading": "Instanotes",
+        "about": "A website that lets students from my college as well as from other Engineering colleges search for class notes.",
+        "tech": ["PHP", "Javascript", "Bootstrap", "jQuery"],        
+        "git": "null",
+        "live": "http://instanotes.xyz"
+    },
+    {
+        "heading": "Chart App #1",
+        "about": "A webapp to demonstrate various types of charts and graphs using FusionCharts API. Supports JSON & CSV formats.",
+        "tech": ["AngularJs", "Javascript", "FusionCharts API", "Papa Parse API", "jQuery", "Bootstrap"],
+        "git": "https://github.com/strcoder4007/SCChartApp",
+        "live": "http://shubhamswe.xyz/chartapp/"
+    },
+    {
+        "heading": "WYSIWYG Editor",
+        "about": "WYSIWYG editor with Medium (blogging website) like features written in Vanilla JavaScript.",
+        "tech": ["Javascript", "Bootstrap", "jQuery"],        
+        "git": "https://github.com/strcoder4007/SCeditor",
+        "live": "http://shubhamswe.xyz/sceditor/"
+    },
+    {
+        "heading": "Decibel Music Player",
+        "about": "Music player app for Windows 8.1 desktop. Made this to teach myself programming!",
+        "tech": ["C#", "XAML"],     
+        "git": "null",
+        "live": "null"
+    },
+    {
+        "heading": "Personal Website (2016)",
+        "about": "My personal website of 2016 written in Vanilla Javascript.",
+        "tech": ["Javascript", "Bootstrap", "jQuery"],        
+        "git": "https://github.com/strcoder4007/Personal-Website-2016",
+        "live": "http://shubhamswe.xyz/personal2016/"
+    },
+    {
+        "heading": "Personal Website (2015)",
+        "about": "My personal website of 2015 written in vanilla Javascript.",
+        "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],        
+        "git": "https://github.com/strcoder4007/Personal-Website-2015",
+        "live": "http://shubhamswe.xyz/personal2015/"
+    },
+    {
+        "heading": "SAE KIET",
+        "about": "Official website of SAE KIET written in Vanilla Javascript",
+        "tech": ["Javascript", "Bootstrap", "HTML", "CSS"],     
+        "git": "https://github.com/strcoder4007/SAE-KIET-Website",
+        "live": "http://shubhamswe.xyz/saekiet/"
+    }
+]
